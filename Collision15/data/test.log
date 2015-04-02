@@ -1,0 +1,7 @@
+I, [2015-03-10T17:29:45.701998 #2119]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+E, [2015-03-10T17:29:46.276612 #2119] ERROR -- : Mysql::Error: BLOB/TEXT column 'body' used in key specification without a key length: CREATE  INDEX `index_posts_on_body`  ON `posts` (`body`) 
+I, [2015-03-10T17:32:17.305179 #2383]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+I, [2015-03-10T17:35:52.313882 #2893]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+I, [2015-03-10T17:37:12.547537 #3140]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+I, [2015-03-10T17:38:05.743590 #3254]  INFO -- : Started GET "/" for 50.207.79.146 at 2015-03-10 17:38:05 +0000
+I, [2015-03-10T17:38:05.764425 #3254]  INFO -- : Processing by PostsController#index as HTML
