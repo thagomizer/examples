@@ -17,11 +17,14 @@ import sys
 
 script, logfile, outfile = sys.argv
 
-IP_RE = re.compile('(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
-TIMESTAMP_RE = re.compile('\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}')
-STATUS_RE = re.compile('Completed (\d{3})')
-RESOURCE_RE = re.compile('Started (GET|POST|PUT|DELETE) "(.*?)"')
-PROCESSING_TIME_RE = re.compile(' (\d+)ms')
+SYSLOG_RE = re.compile(r"""
+    (\w{3}\ \d{2}\ \d{2}:\d{2}:\d{2})  # Timestamp
+    \s([\w-]*)                         # Application
+    \s([\w-]*)                         # Source
+    (\[\w+\])?                         # Optional pid
+    :
+    (.*)                               # Details
+    """, re.VERBOSE)
 
 records = []
 
@@ -33,24 +36,16 @@ with open(logfile, 'r') as f:
 
         d = {}
 
-        d['body'] = line
+        match = SYSLOG_RE.search(line)
+        if match:
+            groups = match.groups()
+            d['timestamp'] = groups[0]
+            d['app']       = groups[1]
+            d['source']    = groups[2]
+            d['pid']       = groups[3]
+            d['details']   = groups[4]
 
-        match                = IP_RE.search(line)
-        d['ip_address']      = match.group() if match else None
-
-        match                = TIMESTAMP_RE.search(line)
-        d['timestamp']       = match.group() if match else None
-
-        match                = STATUS_RE.search(line)
-        d['status']          = match.group() if match else None
-
-        match                = PROCESSING_TIME_RE.search(line)
-        d['processing_time'] = match.group() if match else None
-
-        match                = RESOURCE_RE.search(line)
-        d['verb']            = match.groups()[0] if match else None
-        d['resource']        = match.groups()[1] if match else None
-
+        d['raw'] = line
         records.append(d)
 
 with open(outfile, 'wb') as csvfile:
