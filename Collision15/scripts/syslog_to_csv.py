@@ -14,6 +14,7 @@
 import re
 import csv
 import sys
+from datetime import datetime
 
 script, logfile, outfile = sys.argv
 
@@ -44,9 +45,21 @@ with open(logfile, 'r') as f:
             d['source']    = groups[2]
             d['pid']       = groups[3]
             d['details']   = groups[4]
+        else:
+            d = {'timestamp':None, 'app':None, 'source':None,
+                 'pid':None, 'details':None}
 
         d['raw'] = line
         records.append(d)
+
+for record in records:
+    temp = record.get('timestamp')
+    if not temp:
+        continue
+
+    temp = datetime.strptime(temp, '%b %d %H:%M:%S')
+    temp = temp.isoformat()
+    record['timestamp'] = temp
 
 with open(outfile, 'wb') as csvfile:
     logwriter = csv.writer(csvfile)
