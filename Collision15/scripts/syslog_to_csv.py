@@ -18,12 +18,12 @@ import sys
 script, logfile, outfile = sys.argv
 
 SYSLOG_RE = re.compile(r"""
-    (\w{3}\ \d{2}\ \d{2}:\d{2}:\d{2})  # Timestamp
-    \s([\w-]*)                         # Application
-    \s([\w-]*)                         # Source
-    (\[\w+\])?                         # Optional pid
+    (\w{3}\ {1,2}\d{1,2}\ \d{2}:\d{2}:\d{2}) # Timestamp
+    \s([\w-]*)                               # Application
+    \s([\w-]*)                               # Source
+    (\[\w+\])?                               # Optional pid
     :
-    (.*)                               # Details
+    (.*)                                     # Details
     """, re.VERBOSE)
 
 records = []
