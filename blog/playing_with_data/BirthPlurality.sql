@@ -39,7 +39,7 @@ FROM
   [publicdata:samples.natality]
 WHERE
   plurality IS NOT NULL AND
-  year = 1982
+  year = 1975
 GROUP BY
   plurality;
 
