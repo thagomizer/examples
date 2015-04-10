@@ -11,6 +11,39 @@
  -- See the License for the specific language governing permissions and
  -- limitations under the License.
 
+-- Get possible values for plurality
+SELECT
+  count(*) as total,
+  plurality
+FROM
+  [publicdata:samples.natality]
+GROUP BY
+  plurality;
+
+-- Get records with no plurality
+SELECT
+  count(*) as total,
+  year
+FROM
+  [publicdata:samples.natality]
+WHERE
+   plurality IS NULL
+GROUP BY
+  year;
+
+-- Get count of pluralities for 1982
+SELECT
+  count(*) as total,
+  plurality
+FROM
+  [publicdata:samples.natality]
+WHERE
+  plurality IS NOT NULL AND
+  year = 1982
+GROUP BY
+  plurality;
+
+-- Get count of all pluralities with year in a single row
 SELECT
   year,
   sum(case when plurality = 1 then 1 else 0 end) as singleton,
