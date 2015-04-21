@@ -91,3 +91,31 @@
       bundle exec rake db:create db:migrate
       bundle exec rails server -b 0.0.0.0
       #+END_SRC
+
+6. Build the docker image
+  #+BEGIN_SRC sh
+  docker build -t thagomizer/todo .
+  #+END_SRC
+
+7. Start up the database container
+  #+BEGIN_SRC sh
+    docker run --name db -e POSTGRES_PASSWORD=password -e POSTGRES_USER=rails -d postgres
+   #+END_SRC
+
+8. Start up the web container
+  #+BEGIN_SRC sh
+  docker run --name web -d -p 3000:3000 --link db:pg thagomizer/todo
+  #+END_SRC
+
+9. Access the site.
+  To get the url on linux
+  #+BEGIN_SRC sh
+  docker ports
+  #+END_SRC
+
+  To get the url with bookt2dockr
+  #+BEGIN_SRC sh
+  boot2docker ip
+  #+END_SRC
+
+  Remember the webiste is on port 3000
