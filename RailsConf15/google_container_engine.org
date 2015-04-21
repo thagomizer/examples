@@ -1,0 +1,111 @@
+# Copyright 2015 Google
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+
+#      http://www.apache.org/licenses/LICENSE-2.0
+
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#+NAME db_pod.json
+#+BEGIN_SRC js
+{
+  "id": "db",
+  "kind": "Pod",
+  "apiVersion": "v1beta1",
+  "desiredState": {
+    "manifest": {
+      "version": "v1beta1",
+      "id": "db",
+      "containers": [{
+          "name": "db",
+          "image": "postgres",
+          "env": [{
+            "name": "POSTGRES_PASSWORD",
+            "value": "password"
+          },
+          {
+            "name": "POSTGRES_USER",
+            "value": "rails"
+          }],
+          "db": [{
+              "containerPort": 5432,
+              "hostPort": 5432
+          }]
+        }]
+      }
+    }, 
+  "labels": {
+      "name": "db"
+  }
+}
+#+END_SRC
+
+#+NAME db_service.json
+#+BEGIN_SRC 
+{
+  "id": "db",
+  "kind": "Service",
+  "apiVersion": "v1beta1",
+  "port": 5432,
+  "containerPort": 5432,
+  "selector": {
+    "name": "db"
+  }
+}
+#+END_SRC
+
+#+NAME web-controller.json
+#+BEGIN_SRC 
+{
+    "id": "web-controller",
+    "kind": "ReplicationController",
+    "apiVersion": "v1beta1",
+    "desiredState": {
+        "replicas": 2,
+        "replicaSelector": {"name": "web"},
+        "podTemplate": {
+            "desiredState": {
+                "manifest": {
+                    "version": "v1beta1",
+                    "id": "web-controller",
+                    "containers": [{
+                        "name": "web",
+                        "image": "thagomizer/todo-prod",
+                        "env": [{
+                            "name": "POSTGRES_PASSWORD",
+                            "value": "password"
+                        },
+                        {
+                            "name": "POSTGRES_USER",
+                            "value": "rails"
+                        }],
+                        "ports": [{"name": "http-server", "containerPort": 3000}]
+                    }]
+                }
+            },
+            "labels": { "name": "web" }
+        }
+    },
+    "labels": {"name": "web"}
+}
+#+END_SRC
+
+#+NAME web-service.json
+#+BEGIN_SRC 
+{
+  "id": "web",
+  "kind": "Service",
+  "apiVersion": "v1beta1",
+  "port": 3000,
+  "containerPort": "http-server",
+  "selector": {
+    "name": "web"
+  },
+  "createExternalLoadBalancer": true
+}
+#+END_SRC
