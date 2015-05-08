@@ -1,0 +1,667 @@
+[ 2015-03-10 17:26:44.5877 1097/7f49b8b59780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'nogroup', 'default_python' => 'python', 'default_ruby' => '/home/deploy/.rbenv/shims/ruby', 'default_user' => 'nobody', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'true', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '1050', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '33', 'web_server_worker_uid' => '33' }
+[ 2015-03-10 17:26:45.1946 1100/7f8a32e4f780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1050/generation-0/request
+[ 2015-03-10 17:26:45.3275 1119/7f7c3524a7c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1050/generation-0/logging
+[ 2015-03-10 17:26:45.3278 1097/7f49b8b59780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3205 stdout: 
+App 3205 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-10 17:38:05.5773 1100/7f8a32d58700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 3205, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.1fcwlwd
+App 3254 stdout: 
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output 
+App 3205 stderr: error : 
+App 3205 stderr: unknown encoding ASCII-8BIT
+App 3205 stderr: output 
+App 3205 stderr: error : 
+App 3205 stderr: unknown encoding ASCII-8BIT
+App 3205 stderr: output 
+App 3205 stderr: error : 
+App 3205 stderr: unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output 
+App 3205 stderr: error : 
+App 3205 stderr: unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 3205 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stdout: 
+App 23153 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 03:37:50.5786 1100/7f8a32d17700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 23153, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.iibqi3
+App 23202 stdout: 
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stdout: 
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : 
+App 23153 stderr: unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : 
+App 23153 stderr: unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23153 stderr: output 
+App 23153 stderr: error : unknown encoding ASCII-8BIT
+App 23543 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 03:48:00.1384 1100/7f8a32d58700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 23543, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.13g5660
+App 23592 stdout: 
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 24289 stdout: 
+App 24289 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 04:09:17.3775 1100/7f8a32d99700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 24289, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.19tf6u7
+App 24338 stdout: 
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stdout: 
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 23543 stderr: output 
+App 23543 stderr: error : unknown encoding ASCII-8BIT
+App 23543 stderr: output error : 
+App 23543 stderr: unknown encoding ASCII-8BIT
+App 25058 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 04:30:29.2871 1100/7f8a0b9cd700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 25058, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.1m8htqa
+App 25109 stdout: 
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25058 stderr: output error : unknown encoding ASCII-8BIT
+App 25439 stdout: 
+App 25439 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 04:40:18.6866 1100/7f8a0b968700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 25439, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.1hbu21o
+App 25490 stdout: 
+App 25956 stdout: 
+App 25956 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 04:54:21.7930 1100/7f8a32ca1700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 25956, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.1x8yf0j
+App 26006 stdout: 
+App 26172 stdout: 
+App 26172 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-11 04:59:29.3936 1100/7f8a32d58700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 26172, listening on unix:/tmp/passenger.1.0.1050/generation-0/backends/preloader.cfdi32
+App 26224 stdout: 
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output 
+App 25956 stderr: error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+App 25956 stderr: output error : unknown encoding ASCII-8BIT
+[ 2015-03-12 16:33:23.6836 1119/7f7c3524a7c0 agents/LoggingAgent/Main.cpp:289 ]: Caught signal, exiting...
+[ 2015-03-31 18:35:40.4360 1163/7f5e0ef5a780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'nogroup', 'default_python' => 'python', 'default_ruby' => '/home/deploy/.rbenv/shims/ruby', 'default_user' => 'nobody', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'true', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '1098', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '33', 'web_server_worker_uid' => '33' }
+[ 2015-03-31 18:35:40.7780 1166/7feb2f2c5780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1098/generation-0/request
+[ 2015-03-31 18:35:40.8666 1190/7f1b54fc17c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1098/generation-0/logging
+[ 2015-03-31 18:35:40.8823 1163/7f5e0ef5a780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 1668 stdout: 
+App 1668 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/deploy/blog/releases/20150310173709/config/environments/production.rb:23)
+[ 2015-03-31 18:37:01.0636 1166/7feb2f20f700 Pool2/SmartSpawner.h:298 ]: Preloader for /home/deploy/blog/current started on PID 1668, listening on unix:/tmp/passenger.1.0.1098/generation-0/backends/preloader.811ds6
+App 1718 stdout: 
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT
+App 1668 stderr: output error : unknown encoding ASCII-8BIT

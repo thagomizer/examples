@@ -1,0 +1,1774 @@
+Mar  9 07:17:01 frontend-rails CRON[21078]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 08:17:01 frontend-rails CRON[23112]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 09:17:01 frontend-rails CRON[25099]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 10:17:01 frontend-rails CRON[27096]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 11:17:01 frontend-rails CRON[29140]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 12:17:01 frontend-rails CRON[31125]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 13:17:01 frontend-rails CRON[642]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 14:17:01 frontend-rails CRON[2720]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 15:17:01 frontend-rails CRON[4805]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 16:17:01 frontend-rails CRON[6839]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 17:17:01 frontend-rails CRON[8824]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 18:17:01 frontend-rails CRON[10858]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 19:17:01 frontend-rails CRON[12897]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 20:17:01 frontend-rails CRON[14935]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 21:17:01 frontend-rails CRON[16915]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 22:17:01 frontend-rails CRON[18964]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 23:17:01 frontend-rails CRON[20965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 00:17:01 frontend-rails CRON[22941]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 01:17:01 frontend-rails CRON[24920]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 02:17:01 frontend-rails CRON[26980]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 03:17:01 frontend-rails CRON[28952]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 04:17:01 frontend-rails CRON[30904]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 05:17:01 frontend-rails CRON[354]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 06:17:01 frontend-rails CRON[2949]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 06:25:01 frontend-rails CRON[3204]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 10 07:17:01 frontend-rails CRON[5017]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 08:17:01 frontend-rails CRON[6954]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 09:17:01 frontend-rails CRON[8899]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 10:17:01 frontend-rails CRON[10840]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 11:17:01 frontend-rails CRON[12775]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 12:17:01 frontend-rails CRON[14736]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 13:17:01 frontend-rails CRON[16652]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 14:17:01 frontend-rails CRON[18677]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 15:17:01 frontend-rails CRON[20776]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 16:17:01 frontend-rails CRON[22674]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 17:17:01 frontend-rails CRON[25060]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 17:26:42 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="809" x-info="http://www.rsyslog.com"] start
+Mar 10 17:26:42 frontend-rails rsyslogd-2307: warning: ~ action is deprecated, consider using the 'stop' statement instead [try http://www.rsyslog.com/e/2307 ]
+Mar 10 17:26:42 frontend-rails rsyslogd: rsyslogd's groupid changed to 104
+Mar 10 17:26:42 frontend-rails rsyslogd: rsyslogd's userid changed to 101
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Linux version 3.16.0-31-generic (buildd@tipua) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #41~14.04.1-Ubuntu SMP Wed Feb 11 19:30:13 UTC 2015 (Ubuntu 3.16.0-31.41~14.04.1-generic 3.16.7-ckt5)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=0e501679-6d73-47fa-9cf9-558872950040 ro console=ttyS0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] KERNEL supported cpus:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Intel GenuineIntel
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   AMD AuthenticAMD
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Centaur CentaurHauls
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Disabled fast string operations
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bfffdfff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000bfffe000-0x00000000bfffffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffbc000-0x00000000ffffffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000021fffffff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] SMBIOS 2.4 present.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] DMI: Google Google, BIOS Google 01/01/2011
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Hypervisor detected: KVM
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] AGP: No AGP bridge found
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: last_pfn = 0x220000 max_arch_pfn = 0x400000000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] MTRR default type: write-back
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] MTRR fixed ranges enabled:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   00000-9FFFF write-back
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   A0000-BFFFF uncachable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   C0000-FFFFF write-protect
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] MTRR variable ranges enabled:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   0 base 0000C0000000 mask 3FFFC0000000 uncachable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   1 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   2 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   3 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   4 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   5 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   6 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   7 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x70106, new 0x7010600070106
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: last_pfn = 0xbfffe max_arch_pfn = 0x400000000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] found SMP MP-table at [mem 0x000fdaf0-0x000fdaff] mapped at [ffff8800000fdaf0]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Using GB pages for direct mapping
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fbe000, 0x01fbefff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fbf000, 0x01fbffff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fc0000, 0x01fc0fff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x21fe00000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x21fe00000-0x21fffffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fc1000, 0x01fc1fff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x21c000000-0x21fdfffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x21c000000-0x21fdfffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x200000000-0x21bffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x200000000-0x21bffffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0xbfffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x00200000-0x3fffffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x40000000-0x7fffffff] page 1G
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x80000000-0xbfdfffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0xbfe00000-0xbfffdfff] page 4k
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x100000000-0x1ffffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x100000000-0x1ffffffff] page 1G
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] RAMDISK: [mem 0x3758a000-0x37abcfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: RSDP 0x00000000000FD910 000014 (v00 Google)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: RSDT 0x00000000BFFFE080 000034 (v01 Google GOOGRSDT 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: FACP 0x00000000BFFFFF00 0000F4 (v02 Google GOOGFACP 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: DSDT 0x00000000BFFFE0C0 00150A (v01 GOOG   GODSDT   00000001 INTL 20140214)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: FACS 0x00000000BFFFFEC0 000040
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: SSDT 0x00000000BFFFF720 00079E (v01 Google GOOGSSDT 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: APIC 0x00000000BFFFF600 000076 (v01 Google GOOGAPIC 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: WAET 0x00000000BFFFF5D0 000028 (v01 Google GOOGWAET 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] No NUMA configuration found
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000021fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   NODE_DATA [mem 0x21fff9000-0x21fffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] kvm-clock: cpu 0, msr 2:1fff5001, primary cpu clock
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [ffffea0000000000-ffffea00087fffff] PMD -> [ffff880217e00000-ffff88021f5fffff] on node 0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Zone ranges:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Normal   [mem 0x100000000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Movable zone start for each node
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Early memory node ranges
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   node   0: [mem 0x00100000-0xbfffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   node   0: [mem 0x100000000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] On node 0 totalpages: 1965980
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA zone: 21 pages reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA32 zone: 12224 pages used for memmap
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA32 zone: 782334 pages, LIFO batch:31
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Normal zone: 18432 pages used for memmap
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Normal zone: 1179648 pages, LIFO batch:31
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ5 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ9 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ10 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ11 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] nr_irqs_gsi: 40
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xbfffe000-0xbfffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xc0000000-0xfffbbfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffbc000-0xffffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: [mem 0xc0000000-0xfffbbfff] available for PCI devices
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88021fc00000 s82304 r8192 d24192 u1048576
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] pcpu-alloc: s82304 r8192 d24192 u1048576 alloc=1*2097152
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 1935239
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Policy zone: Normal
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=0e501679-6d73-47fa-9cf9-558872950040 ro console=ttyS0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] AGP: Checking aperture...
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] AGP: No AGP bridge found
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Memory: 7652920K/7863920K available (7617K kernel code, 1131K rwdata, 3596K rodata, 1356K init, 1300K bss, 211000K reserved)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Hierarchical RCU implementation.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	Offload RCU callbacks from all CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	Offload RCU callbacks from CPUs: 0-1.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Console: colour VGA+ 80x25
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] console [ttyS0] enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] allocated 31457280 bytes of page_cgroup
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] tsc: Detected 2499.998 MHz processor
+Mar 10 17:26:42 frontend-rails kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=9999992)
+Mar 10 17:26:42 frontend-rails kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Mar 10 17:26:42 frontend-rails kernel: [    0.008038] ACPI: Core revision 20140424
+Mar 10 17:26:42 frontend-rails kernel: [    0.009822] ACPI: All ACPI Tables successfully acquired
+Mar 10 17:26:42 frontend-rails kernel: [    0.010712] Security Framework initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.012049] AppArmor: AppArmor initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.012640] Yama: becoming mindful.
+Mar 10 17:26:42 frontend-rails kernel: [    0.013647] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.023848] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.029103] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.030144] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.031824] Initializing cgroup subsys memory
+Mar 10 17:26:42 frontend-rails kernel: [    0.032032] Initializing cgroup subsys devices
+Mar 10 17:26:42 frontend-rails kernel: [    0.032674] Initializing cgroup subsys freezer
+Mar 10 17:26:42 frontend-rails kernel: [    0.033313] Initializing cgroup subsys net_cls
+Mar 10 17:26:42 frontend-rails kernel: [    0.033947] Initializing cgroup subsys blkio
+Mar 10 17:26:42 frontend-rails kernel: [    0.034573] Initializing cgroup subsys perf_event
+Mar 10 17:26:42 frontend-rails kernel: [    0.035395] Initializing cgroup subsys net_prio
+Mar 10 17:26:42 frontend-rails kernel: [    0.036045] Initializing cgroup subsys hugetlb
+Mar 10 17:26:42 frontend-rails kernel: [    0.036756] Disabled fast string operations
+Mar 10 17:26:42 frontend-rails kernel: [    0.037393] CPU: Physical Processor ID: 0
+Mar 10 17:26:42 frontend-rails kernel: [    0.037974] CPU: Processor Core ID: 0
+Mar 10 17:26:42 frontend-rails kernel: [    0.039282] mce: CPU supports 32 MCE banks
+Mar 10 17:26:42 frontend-rails kernel: [    0.040088] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Mar 10 17:26:42 frontend-rails kernel: [    0.040088] Last level dTLB entries: 4KB 512, 2MB 0, 4MB 0, 1GB 4
+Mar 10 17:26:42 frontend-rails kernel: [    0.040088] tlb_flushall_shift: 6
+Mar 10 17:26:42 frontend-rails kernel: [    0.042408] Freeing SMP alternatives memory: 32K (ffffffff81e6f000 - ffffffff81e77000)
+Mar 10 17:26:42 frontend-rails kernel: [    0.047339] ftrace: allocating 29221 entries in 115 pages
+Mar 10 17:26:42 frontend-rails kernel: [    0.056363] Enabling x2apic
+Mar 10 17:26:42 frontend-rails kernel: [    0.056794] Enabled x2apic
+Mar 10 17:26:42 frontend-rails kernel: [    0.057334] Switched APIC routing to physical x2apic.
+Mar 10 17:26:42 frontend-rails kernel: [    0.060368] ..TIMER: vector=0x30 apic1=0 pin1=0 apic2=-1 pin2=-1
+Mar 10 17:26:42 frontend-rails kernel: [    0.061224] smpboot: CPU0: Intel(R) Xeon(R) CPU @ 2.50GHz (fam: 06, model: 3e, stepping: 04)
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] Performance Events: unsupported p6 CPU model 62 no PMU driver, software events only.
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] x86: Booting SMP configuration:
+Mar 10 17:26:42 frontend-rails kernel: [    0.064017] .... node  #0, CPUs:      #1
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] kvm-clock: cpu 1, msr 2:1fff5041, secondary cpu clock
+Mar 10 17:26:42 frontend-rails kernel: [    0.076041] NMI watchdog: disabled (cpu0): hardware events not enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] Disabled fast string operations
+Mar 10 17:26:42 frontend-rails kernel: [    0.080032] x86: Booted up 1 node, 2 CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    0.080732] smpboot: Total of 2 processors activated (9999.99 BogoMIPS)
+Mar 10 17:26:42 frontend-rails kernel: [    0.084050] devtmpfs: initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.085682] evm: security.selinux
+Mar 10 17:26:42 frontend-rails kernel: [    0.086179] evm: security.SMACK64
+Mar 10 17:26:42 frontend-rails kernel: [    0.086685] evm: security.SMACK64EXEC
+Mar 10 17:26:42 frontend-rails kernel: [    0.087236] evm: security.SMACK64TRANSMUTE
+Mar 10 17:26:42 frontend-rails kernel: [    0.087816] evm: security.SMACK64MMAP
+Mar 10 17:26:42 frontend-rails kernel: [    0.088002] evm: security.ima
+Mar 10 17:26:42 frontend-rails kernel: [    0.088442] evm: security.capability
+Mar 10 17:26:42 frontend-rails kernel: [    0.089029] pinctrl core: initialized pinctrl subsystem
+Mar 10 17:26:42 frontend-rails kernel: [    0.089996] regulator-dummy: no parameters
+Mar 10 17:26:42 frontend-rails kernel: [    0.092114] RTC time: 17:26:25, date: 03/10/15
+Mar 10 17:26:42 frontend-rails kernel: [    0.092845] NET: Registered protocol family 16
+Mar 10 17:26:42 frontend-rails kernel: [    0.093670] cpuidle: using governor ladder
+Mar 10 17:26:42 frontend-rails kernel: [    0.094323] cpuidle: using governor menu
+Mar 10 17:26:42 frontend-rails kernel: [    0.094995] ACPI: bus type PCI registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.095581] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 10 17:26:42 frontend-rails kernel: [    0.096212] PCI: Using configuration type 1 for base access
+Mar 10 17:26:42 frontend-rails kernel: [    0.104195] ACPI: Added _OSI(Module Device)
+Mar 10 17:26:42 frontend-rails kernel: [    0.104898] ACPI: Added _OSI(Processor Device)
+Mar 10 17:26:42 frontend-rails kernel: [    0.105659] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 10 17:26:42 frontend-rails kernel: [    0.106392] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 10 17:26:42 frontend-rails kernel: [    0.109541] ACPI: Interpreter enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.110088] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Mar 10 17:26:42 frontend-rails kernel: [    0.111448] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Mar 10 17:26:42 frontend-rails kernel: [    0.112972] ACPI: (supports S0 S3 S4 S5)
+Mar 10 17:26:42 frontend-rails kernel: [    0.113630] ACPI: Using IOAPIC for interrupt routing
+Mar 10 17:26:42 frontend-rails kernel: [    0.114405] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 10 17:26:42 frontend-rails kernel: [    0.118220] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 10 17:26:42 frontend-rails kernel: [    0.119109] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 10 17:26:42 frontend-rails kernel: [    0.120008] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar 10 17:26:42 frontend-rails kernel: [    0.121038] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 10 17:26:42 frontend-rails kernel: [    0.123372] PCI host bridge to bus 0000:00
+Mar 10 17:26:42 frontend-rails kernel: [    0.124005] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.124981] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Mar 10 17:26:42 frontend-rails kernel: [    0.125888] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.126900] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.128004] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.129031] pci 0000:00:01.0: [8086:7110] type 00 class 0x060100
+Mar 10 17:26:42 frontend-rails kernel: [    0.144285] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Mar 10 17:26:42 frontend-rails kernel: [    0.160074] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Mar 10 17:26:42 frontend-rails kernel: [    0.161566] pci 0000:00:03.0: [1af4:1004] type 00 class 0x000000
+Mar 10 17:26:42 frontend-rails kernel: [    0.166081] pci 0000:00:03.0: reg 0x10: [io  0xc000-0xc03f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.170097] pci 0000:00:03.0: reg 0x14: [mem 0xfebfe000-0xfebfe07f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.182611] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Mar 10 17:26:42 frontend-rails kernel: [    0.186081] pci 0000:00:04.0: reg 0x10: [io  0xc040-0xc07f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.190145] pci 0000:00:04.0: reg 0x14: [mem 0xfebff000-0xfebff07f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.203230] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.204417] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.205585] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.206726] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.208322] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Mar 10 17:26:42 frontend-rails kernel: [    0.209623] ACPI: Enabled 16 GPEs in block 00 to 0F
+Mar 10 17:26:42 frontend-rails kernel: [    0.210503] vgaarb: loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.210503] SCSI subsystem initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.212048] libata version 3.00 loaded.
+Mar 10 17:26:42 frontend-rails kernel: [    0.212077] ACPI: bus type USB registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.212736] usbcore: registered new interface driver usbfs
+Mar 10 17:26:42 frontend-rails kernel: [    0.213569] usbcore: registered new interface driver hub
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] usbcore: registered new device driver usb
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] PCI: Using ACPI for IRQ routing
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] PCI: pci_cache_line_size set to 64 bytes
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] e820: reserve RAM buffer [mem 0xbfffe000-0xbfffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] NetLabel: Initializing
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] NetLabel:  domain hash size = 128
+Mar 10 17:26:42 frontend-rails kernel: [    0.216003] NetLabel:  protocols = UNLABELED CIPSOv4
+Mar 10 17:26:42 frontend-rails kernel: [    0.216764] NetLabel:  unlabeled traffic allowed by default
+Mar 10 17:26:42 frontend-rails kernel: [    0.217632] Switched to clocksource kvm-clock
+Mar 10 17:26:42 frontend-rails kernel: [    0.228156] AppArmor: AppArmor Filesystem Enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.228956] pnp: PnP ACPI init
+Mar 10 17:26:42 frontend-rails kernel: [    0.229479] ACPI: bus type PNP registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.230427] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 10 17:26:42 frontend-rails kernel: [    0.230630] pnp 00:01: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 10 17:26:42 frontend-rails kernel: [    0.230735] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 10 17:26:42 frontend-rails kernel: [    0.230929] pnp: PnP ACPI: found 3 devices
+Mar 10 17:26:42 frontend-rails kernel: [    0.231594] ACPI: bus type PNP unregistered
+Mar 10 17:26:42 frontend-rails kernel: [    0.242154] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242156] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242157] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242159] pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfebfffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242205] NET: Registered protocol family 2
+Mar 10 17:26:42 frontend-rails kernel: [    0.243156] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.244818] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.246853] TCP: Hash tables configured (established 65536 bind 65536)
+Mar 10 17:26:42 frontend-rails kernel: [    0.247977] TCP: reno registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.248468] UDP hash table entries: 4096 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.249654] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.250828] NET: Registered protocol family 1
+Mar 10 17:26:42 frontend-rails kernel: [    0.251575] PCI: CLS 0 bytes, default 64
+Mar 10 17:26:42 frontend-rails kernel: [    0.251652] Trying to unpack rootfs image as initramfs...
+Mar 10 17:26:42 frontend-rails kernel: [    0.791402] Freeing initrd memory: 5324K (ffff88003758a000 - ffff880037abd000)
+Mar 10 17:26:42 frontend-rails kernel: [    0.792938] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Mar 10 17:26:42 frontend-rails kernel: [    0.793875] software IO TLB [mem 0xbbffe000-0xbfffe000] (64MB) mapped at [ffff8800bbffe000-ffff8800bfffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.795561] RAPL PMU detected, hw unit 2^-0 Joules, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+Mar 10 17:26:42 frontend-rails kernel: [    0.797241] microcode: CPU0 sig=0x306e4, pf=0x1, revision=0x1
+Mar 10 17:26:42 frontend-rails kernel: [    0.798308] microcode: CPU1 sig=0x306e4, pf=0x1, revision=0x1
+Mar 10 17:26:42 frontend-rails kernel: [    0.799280] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar 10 17:26:42 frontend-rails kernel: [    0.800636] Scanning for low memory corruption every 60 seconds
+Mar 10 17:26:42 frontend-rails kernel: [    0.801946] futex hash table entries: 512 (order: 3, 32768 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.802876] Initialise system trusted keyring
+Mar 10 17:26:42 frontend-rails kernel: [    0.803575] audit: initializing netlink subsys (disabled)
+Mar 10 17:26:42 frontend-rails kernel: [    0.804445] audit: type=2000 audit(1426008385.705:1): initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.805829] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar 10 17:26:42 frontend-rails kernel: [    0.808591] zpool: loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.809026] zbud: loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.809639] VFS: Disk quotas dquot_6.5.2
+Mar 10 17:26:42 frontend-rails kernel: [    0.810315] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.811880] fuse init (API version 7.23)
+Mar 10 17:26:42 frontend-rails kernel: [    0.812674] msgmni has been set to 14957
+Mar 10 17:26:42 frontend-rails kernel: [    0.813375] Key type big_key registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.815361] Key type asymmetric registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.815965] Asymmetric key parser 'x509' registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.816761] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar 10 17:26:42 frontend-rails kernel: [    0.817968] io scheduler noop registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.818550] io scheduler deadline registered (default)
+Mar 10 17:26:42 frontend-rails kernel: [    0.819367] io scheduler cfq registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.820087] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar 10 17:26:42 frontend-rails kernel: [    0.820943] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar 10 17:26:42 frontend-rails kernel: [    0.821934] intel_idle: does not run on family 6 model 62
+Mar 10 17:26:42 frontend-rails kernel: [    0.822012] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 10 17:26:42 frontend-rails kernel: [    0.823095] ACPI: Power Button [PWRF]
+Mar 10 17:26:42 frontend-rails kernel: [    0.823751] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar 10 17:26:42 frontend-rails kernel: [    0.825012] ACPI: Sleep Button [SLPF]
+Mar 10 17:26:42 frontend-rails kernel: [    0.825801] GHES: HEST is not enabled!
+Mar 10 17:26:42 frontend-rails kernel: [    0.828331] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Mar 10 17:26:42 frontend-rails kernel: [    0.832917] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 10
+Mar 10 17:26:42 frontend-rails kernel: [    0.837452] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.860213] 00:01: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Mar 10 17:26:42 frontend-rails kernel: [    0.883119] 00:02: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+Mar 10 17:26:42 frontend-rails kernel: [    0.887332] Linux agpgart interface v0.103
+Mar 10 17:26:42 frontend-rails kernel: [    0.890061] brd: module loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.891549] loop: module loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.892338] libphy: Fixed MDIO Bus: probed
+Mar 10 17:26:42 frontend-rails kernel: [    0.892981] tun: Universal TUN/TAP device driver, 1.6
+Mar 10 17:26:42 frontend-rails kernel: [    0.893714] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Mar 10 17:26:42 frontend-rails kernel: [    1.033199] virtio-pci 0000:00:04.0: irq 40 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.054170] virtio-pci 0000:00:04.0: irq 41 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.077672] virtio-pci 0000:00:04.0: irq 42 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.091669] virtio-pci 0000:00:04.0: irq 43 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.109672] virtio-pci 0000:00:04.0: irq 44 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.124882] PPP generic driver version 2.4.2
+Mar 10 17:26:42 frontend-rails kernel: [    1.125654] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.126658] ehci-pci: EHCI PCI platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.127328] ehci-platform: EHCI generic platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.128124] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.129175] ohci-pci: OHCI PCI platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.129852] ohci-platform: OHCI generic platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.130684] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.131722] i8042: PNP: No PS/2 controller found. Probing ports directly.
+Mar 10 17:26:42 frontend-rails kernel: [    2.261965] i8042: No controller found
+Mar 10 17:26:42 frontend-rails kernel: [    2.262837] mousedev: PS/2 mouse device common for all mice
+Mar 10 17:26:42 frontend-rails kernel: [    2.264138] rtc_cmos 00:00: RTC can wake from S4
+Mar 10 17:26:42 frontend-rails kernel: [    2.265465] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Mar 10 17:26:42 frontend-rails kernel: [    2.266491] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Mar 10 17:26:42 frontend-rails kernel: [    2.267499] device-mapper: uevent: version 1.0.3
+Mar 10 17:26:42 frontend-rails kernel: [    2.268377] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Mar 10 17:26:42 frontend-rails kernel: [    2.269783] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    2.270805] TCP: cubic registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.271488] NET: Registered protocol family 10
+Mar 10 17:26:42 frontend-rails kernel: [    2.272629] NET: Registered protocol family 17
+Mar 10 17:26:42 frontend-rails kernel: [    2.273404] Key type dns_resolver registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.274705] Loading compiled-in X.509 certificates
+Mar 10 17:26:42 frontend-rails kernel: [    2.276213] Loaded X.509 cert 'Magrathea: Glacier signing key: 8bdbdece3102f59c3dcf64c3f2770ec8628cbf6e'
+Mar 10 17:26:42 frontend-rails kernel: [    2.277741] registered taskstats version 1
+Mar 10 17:26:42 frontend-rails kernel: [    2.280747] Key type trusted registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.285189] Key type encrypted registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.285849] AppArmor: AppArmor sha1 policy hashing enabled
+Mar 10 17:26:42 frontend-rails kernel: [    2.286661] ima: No TPM chip found, activating TPM-bypass!
+Mar 10 17:26:42 frontend-rails kernel: [    2.287503] evm: HMAC attrs: 0x1
+Mar 10 17:26:42 frontend-rails kernel: [    2.288333]   Magic number: 7:908:440
+Mar 10 17:26:42 frontend-rails kernel: [    2.288918] clockevents broadcast: hash matches
+Mar 10 17:26:42 frontend-rails kernel: [    2.289778] rtc_cmos 00:00: setting system clock to 2015-03-10 17:26:27 UTC (1426008387)
+Mar 10 17:26:42 frontend-rails kernel: [    2.291367] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Mar 10 17:26:42 frontend-rails kernel: [    2.292349] EDD information not available.
+Mar 10 17:26:42 frontend-rails kernel: [    2.293079] PM: Hibernation image not present or could not be loaded.
+Mar 10 17:26:42 frontend-rails kernel: [    2.294403] Freeing unused kernel memory: 1356K (ffffffff81d1c000 - ffffffff81e6f000)
+Mar 10 17:26:42 frontend-rails kernel: [    2.296115] Write protecting the kernel read-only data: 12288k
+Mar 10 17:26:42 frontend-rails kernel: [    2.299964] Freeing unused kernel memory: 564K (ffff880001773000 - ffff880001800000)
+Mar 10 17:26:42 frontend-rails kernel: [    2.302850] Freeing unused kernel memory: 500K (ffff880001b83000 - ffff880001c00000)
+Mar 10 17:26:42 frontend-rails kernel: [    2.319561] systemd-udevd[101]: starting version 204
+Mar 10 17:26:42 frontend-rails kernel: [    2.375177] virtio-pci 0000:00:03.0: irq 45 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.391193] virtio-pci 0000:00:03.0: irq 46 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.405189] virtio-pci 0000:00:03.0: irq 47 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.424194] virtio-pci 0000:00:03.0: irq 48 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.434852] scsi0 : Virtio SCSI HBA
+Mar 10 17:26:42 frontend-rails kernel: [    2.570281] AVX version of gcm_enc/dec engaged.
+Mar 10 17:26:42 frontend-rails kernel: [    2.571576] scsi 0:0:1:0: Direct-Access     Google   PersistentDisk   1    PQ: 0 ANSI: 6
+Mar 10 17:26:42 frontend-rails kernel: [    2.593594] sd 0:0:1:0: Attached scsi generic sg0 type 0
+Mar 10 17:26:42 frontend-rails kernel: [    2.595105] sd 0:0:1:0: [sda] 20971520 512-byte logical blocks: (10.7 GB/10.0 GiB)
+Mar 10 17:26:42 frontend-rails kernel: [    2.596894] sd 0:0:1:0: [sda] 4096-byte physical blocks
+Mar 10 17:26:42 frontend-rails kernel: [    2.598445] sd 0:0:1:0: [sda] Write Protect is off
+Mar 10 17:26:42 frontend-rails kernel: [    2.599469] sd 0:0:1:0: [sda] Mode Sense: 1f 00 00 08
+Mar 10 17:26:42 frontend-rails kernel: [    2.599554] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar 10 17:26:42 frontend-rails kernel: [    2.615559]  sda: sda1
+Mar 10 17:26:42 frontend-rails kernel: [    2.617153] sd 0:0:1:0: [sda] Attached SCSI disk
+Mar 10 17:26:42 frontend-rails kernel: [    5.376124] floppy0: no floppy controllers found
+Mar 10 17:26:42 frontend-rails kernel: [    6.472891] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Mar 10 17:26:42 frontend-rails kernel: [    6.474431] EXT4-fs (sda1): write access will be enabled during recovery
+Mar 10 17:26:42 frontend-rails kernel: [    6.653314] EXT4-fs (sda1): orphan cleanup on readonly fs
+Mar 10 17:26:42 frontend-rails kernel: [    7.670371] EXT4-fs (sda1): 31 orphan inodes deleted
+Mar 10 17:26:42 frontend-rails kernel: [    7.675769] EXT4-fs (sda1): recovery complete
+Mar 10 17:26:42 frontend-rails kernel: [    7.700592] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 10 17:26:42 frontend-rails kernel: [    8.446042] random: nonblocking pool is initialized
+Mar 10 17:26:42 frontend-rails kernel: [    9.410755] EXT4-fs (sda1): re-mounted. Opts: (null)
+Mar 10 17:26:42 frontend-rails kernel: [   13.816126] systemd-udevd[422]: starting version 204
+Mar 10 17:26:42 frontend-rails kernel: [   14.240638] device-mapper: multipath: version 1.7.0 loaded
+Mar 10 17:26:42 frontend-rails kernel: [   14.353957] ppdev: user-space parallel port driver
+Mar 10 17:26:42 frontend-rails kernel: [   14.497025] audit: type=1400 audit(1426008399.704:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497033] audit: type=1400 audit(1426008399.704:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497037] audit: type=1400 audit(1426008399.704:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497047] audit: type=1400 audit(1426008399.704:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497057] audit: type=1400 audit(1426008399.704:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497063] audit: type=1400 audit(1426008399.704:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497484] audit: type=1400 audit(1426008399.704:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497491] audit: type=1400 audit(1426008399.704:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497519] audit: type=1400 audit(1426008399.704:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497524] audit: type=1400 audit(1426008399.704:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   16.676603] init: failsafe main process (762) killed by TERM signal
+Mar 10 17:26:42 frontend-rails rsyslogd-2039: Could no open output pipe '/dev/xconsole': No such file or directory [try http://www.rsyslog.com/e/2039 ]
+Mar 10 17:26:42 frontend-rails kernel: [   17.232104] floppy0: no floppy controllers found
+Mar 10 17:26:42 frontend-rails kernel: [   17.232150] work still pending
+Mar 10 17:26:42 frontend-rails pollinate[885]: system was previously seeded at [2015-03-02 20:09:24.009653000 +0000]
+Mar 10 17:26:42 frontend-rails pollinate[887]: To re-seed this system again, use the -r|--reseed option
+Mar 10 17:26:43 frontend-rails pollinate[995]: system was previously seeded at [2015-03-02 20:09:24.009653000 +0000]
+Mar 10 17:26:43 frontend-rails pollinate[997]: To re-seed this system again, use the -r|--reseed option
+Mar 10 17:26:43 frontend-rails acpid: starting up with netlink and the input layer
+Mar 10 17:26:43 frontend-rails cron[982]: (CRON) INFO (pidfile fd = 3)
+Mar 10 17:26:43 frontend-rails acpid: 1 rule loaded
+Mar 10 17:26:43 frontend-rails acpid: waiting for events: event logging is off
+Mar 10 17:26:43 frontend-rails cron[1030]: (CRON) STARTUP (fork ok)
+Mar 10 17:26:43 frontend-rails cron[1030]: (CRON) INFO (Running @reboot jobs)
+Mar 10 17:26:45 frontend-rails kernel: [   20.277443] ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 10 17:26:45 frontend-rails kernel: [   20.314071] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Mar 10 17:26:45 frontend-rails ntpd[1232]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 10 17:26:45 frontend-rails ntpd[1236]: proto: precision = 0.123 usec
+Mar 10 17:26:45 frontend-rails ntpd[1236]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 10 17:26:45 frontend-rails ntpd[1236]: unable to bind to wildcard address 0.0.0.0 - another process may be running - EXITING
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Running virtionet-irq-affinity
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Set channels for eth0 to 2
+Mar 10 17:26:46 frontend-rails kernel: [   21.068641] init: plymouth-upstart-bridge main process ended, respawning
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/41/smp_affinity to 1 for device virtio1
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/42/smp_affinity to 1 for device virtio1
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/43/smp_affinity to 2 for device virtio1
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/44/smp_affinity to 2 for device virtio1
+Mar 10 17:26:46 frontend-rails google-address-manager: INFO Starting GCE address manager
+Mar 10 17:26:46 frontend-rails google: onboot initializing
+Mar 10 17:26:46 frontend-rails google: Running Boto setup script at /usr/share/google/boto/boot_setup.py
+Mar 10 17:26:46 frontend-rails google: SSH public key fingerprints
+Mar 10 17:26:46 frontend-rails google: RSA public key
+Mar 10 17:26:46 frontend-rails google: DSA public key
+Mar 10 17:26:46 frontend-rails google: ECDSA public key
+Mar 10 17:26:46 frontend-rails google: Running google_run_startup_scripts.conf
+Mar 10 17:26:46 frontend-rails google: {"attributes":{"sshKeys":"deploy:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeMxyz48kzmcms80ODv2N3mhbxxTkwukOOcfKAk0kGBfB0JpSREpim590+wHquUOznrCDHOZ+99opeWN9Jd07SQXDpdZZvgo4LgF/XaGJwPXnRZ6S6IfcAI4BJH8iPkB9Z1UcczmcjdEaL+EOByshRhiwbCWX0FWQTSXmqJNCN3Ec2eHJTL/p4gJjZkXSPuCRJS9uDptMU1MtN+GDsI8opXPFD85v/AGHjMf+KkC09w2qTPSi8Y6Ye6/7QgATwxAgdTMAcHhOxsmFLAEEwhaoKaH/4R+hu6zYdeYNLrcdio6FMiK4lOGVti+AKggaN+rcrQDcX5fLUs3NVK1p/My1H deploy\najahammerly:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrfl+9uEWWej+lmQk3aRdFH9M7zs4PHuVe1/6C8UWCFVV2sRqzLuKiuh/bpoGpwuSfK6Epo7Ojco8TjtSqkrYOFxKsCk0a6Umfv3j4JGhEzFiX2o3BTSLF/RzkGFRCAbo9LHq+wCX84SHr6+BMMRG2eWIbvFrBclFXtVL8fOd3Ofldm1UAbRDnLB7iXTWBwZdoVdEduOScIH+Ke/DXkia2pZ4Vj81cbhGUo3hXu/RXDXibYB+TapOLSU0/k68drZKvb6jlUXJJPvxKuwCf6lLfzORgtqHFwluMvpANYreBXGdwAi/mwO+sNFHH6Bb5KQcb3vfuMnP2fSuQwfjtKLsv ajahammerly@google.com\naja.hammerly:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx7TKF0i49YqMZ4Rsb038PnxMuzlVo/po3IgnROyqkJ+macxkPfywvmBZ3qKdP10qKhWR6/Eet3zlYOvrIGudL2aaBSHsOKDPv168yQ6CKVAR9G74S3qKPl2B61a8FPnzRpCo
+Mar 10 17:26:46 frontend-rails google: tuqpgNqGDspZrmxlxtshAEz5dyN1EXbJj7RVOVciIx8KEMDsbKrE6duUG4J4lJ5L5F05Xgvz6Fj8exj9u3qHUfQHvVXPl5quI37sjCFUBKB+BgBjlXMvha7L0gtbhHdhb91t1FjogJd4cPFKFMdEutkJ4b2Djd/OrmNVAL1qRS9aVOzLy2LEpTCvNEofqAiWVcoYHZpocyWIktsQR aja.hammerly@gmail.com"},"description":"","disks":[{"deviceName":"frontend-rails","index":0,"mode":"READ_WRITE","type":"PERSISTENT"}],"hostname":"frontend-rails.c.angular-concord-861.internal","id":17643872519476391867,"image":"","licenses":[{"id":"1000010"}],"machineType":"projects/909351439241/machineTypes/n1-standard-2","maintenanceEvent":"NONE","networkInterfaces":[{"accessConfigs":[{"externalIp":"104.154.79.107","type":"ONE_TO_ONE_NAT"}],"forwardedIps":[],"ip":"10.240.16.55","network":"projects/909351439241/networks/default"}],"scheduling":{"automaticRestart":"TRUE","onHostMaintenance":"MIGRATE"},"serviceAccounts":{"909351439241-compute@developer.gserviceaccount.com":{"aliases":["default"],"email":"909351439241-compute@developer.gserviceaccount.com","scopes":["https://www.googleapis.com/auth/devst
+Mar 10 17:26:46 frontend-rails google: orage.read_only","https://www.googleapis.com/auth/logging.write"]},"default":{"aliases":["default"],"email":"909351439241-compute@developer.gserviceaccount.com","scopes":["https://www.googleapis.com/auth/devstorage.read_only","https://www.googleapis.com/auth/logging.write"]}},"tags":["http-server","https-server"],"zone":"projects/909351439241/zones/us-central1-f"}
+Mar 10 17:26:46 frontend-rails google: No startup script found in metadata.
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1433]: Upgrading MySQL tables if necessary.
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: This installation of MySQL is already upgraded to 5.5.41, use --force if you still need to run mysql_upgrade
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1448]: Checking for insecure root accounts.
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1453]: Triggering myisam-recover for all MyISAM tables
+Mar 10 17:26:48 frontend-rails ntpdate[712]: adjust time server 169.254.169.254 offset -0.055242 sec
+Mar 10 17:26:48 frontend-rails ntpd[1548]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 10 17:26:48 frontend-rails ntpd[1549]: proto: precision = 0.172 usec
+Mar 10 17:26:48 frontend-rails ntpd[1549]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen normally on 3 eth0 10.240.16.55 UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: peers refreshed
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listening on routing socket on fd #20 for interface updates
+Mar 10 17:26:48 frontend-rails ntpd[1549]: format error frequency file /var/lib/ntp/ntp.drift
+Mar 10 17:26:57 frontend-rails ntpd[1549]: ntpd exiting on signal 15
+Mar 10 17:27:05 frontend-rails ntpdate[1580]: adjust time server 169.254.169.254 offset -0.050444 sec
+Mar 10 17:27:05 frontend-rails ntpd[1611]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 10 17:27:05 frontend-rails ntpd[1612]: proto: precision = 0.133 usec
+Mar 10 17:27:05 frontend-rails ntpd[1612]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen normally on 3 eth0 10.240.16.55 UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: peers refreshed
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listening on routing socket on fd #20 for interface updates
+Mar 10 17:27:05 frontend-rails ntpd[1612]: format error frequency file /var/lib/ntp/ntp.drift
+Mar 10 18:17:01 frontend-rails CRON[4527]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 19:17:01 frontend-rails CRON[6525]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 20:17:01 frontend-rails CRON[8488]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 21:17:01 frontend-rails CRON[10462]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 22:17:01 frontend-rails CRON[12424]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 23:17:01 frontend-rails CRON[14387]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 00:17:01 frontend-rails CRON[16348]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 01:17:01 frontend-rails CRON[18304]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 02:17:01 frontend-rails CRON[20270]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 03:17:01 frontend-rails CRON[22428]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 04:17:01 frontend-rails CRON[24607]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 05:17:01 frontend-rails CRON[26808]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 06:17:01 frontend-rails CRON[28774]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 06:25:01 frontend-rails CRON[29037]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 11 07:17:01 frontend-rails CRON[30942]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 08:17:01 frontend-rails CRON[435]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 09:17:01 frontend-rails CRON[2460]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 10:17:01 frontend-rails CRON[4428]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 11:17:01 frontend-rails CRON[6385]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 12:17:01 frontend-rails CRON[8348]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 13:17:01 frontend-rails CRON[10318]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 14:17:01 frontend-rails CRON[12276]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 15:17:01 frontend-rails CRON[14231]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 16:17:01 frontend-rails CRON[16202]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 17:17:01 frontend-rails CRON[18168]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 18:17:01 frontend-rails CRON[20128]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 19:17:01 frontend-rails CRON[22083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 20:17:01 frontend-rails CRON[24076]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 21:17:01 frontend-rails CRON[26088]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 22:17:01 frontend-rails CRON[28047]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 23:17:01 frontend-rails CRON[30001]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 00:17:01 frontend-rails CRON[31965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 01:17:01 frontend-rails CRON[1524]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 02:17:01 frontend-rails CRON[3484]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 03:17:01 frontend-rails CRON[5440]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 04:17:01 frontend-rails CRON[7396]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 05:17:01 frontend-rails CRON[9373]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 06:17:01 frontend-rails CRON[11335]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 06:25:01 frontend-rails CRON[11597]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 12 07:07:16 frontend-rails kernel: [135651.082359] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.082454] libcrc32c: module verification failed: signature and/or  required key missing - tainting kernel
+Mar 12 07:07:16 frontend-rails kernel: [135651.085040] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.097543] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+Mar 12 07:07:16 frontend-rails kernel: [135651.110407] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.124496] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.127950] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.196236] raid6: sse2x1    6603 MB/s
+Mar 12 07:07:16 frontend-rails kernel: [135651.264021] raid6: sse2x2    8575 MB/s
+Mar 12 07:07:16 frontend-rails kernel: [135651.332025] raid6: sse2x4    9772 MB/s
+Mar 12 07:07:16 frontend-rails kernel: [135651.332029] raid6: using algorithm sse2x4 (9772 MB/s)
+Mar 12 07:07:16 frontend-rails kernel: [135651.332031] raid6: using ssse3x2 recovery algorithm
+Mar 12 07:07:16 frontend-rails kernel: [135651.332321] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.332590] xor: automatically using best checksumming function:
+Mar 12 07:07:16 frontend-rails kernel: [135651.372020]    avx       : 20482.000 MB/sec
+Mar 12 07:07:16 frontend-rails kernel: [135651.372930] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.384675] Btrfs loaded
+Mar 12 07:07:17 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="809" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr  4 07:17:01 frontend-rails CRON[15811]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 08:17:01 frontend-rails CRON[17762]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 09:17:01 frontend-rails CRON[19721]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 10:17:01 frontend-rails CRON[21679]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 11:17:01 frontend-rails CRON[23639]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 12:17:01 frontend-rails CRON[25596]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 13:17:01 frontend-rails CRON[27555]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 14:17:01 frontend-rails CRON[29513]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 15:17:01 frontend-rails CRON[31473]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 16:17:01 frontend-rails CRON[978]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 17:17:01 frontend-rails CRON[2998]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 18:17:01 frontend-rails CRON[4958]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 19:17:01 frontend-rails CRON[6920]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 20:17:01 frontend-rails CRON[8875]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 21:17:01 frontend-rails CRON[10842]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 22:17:01 frontend-rails CRON[12806]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 23:17:01 frontend-rails CRON[14777]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 00:17:01 frontend-rails CRON[16746]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 01:17:01 frontend-rails CRON[18716]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 02:17:01 frontend-rails CRON[20678]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 03:17:01 frontend-rails CRON[22638]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 04:17:01 frontend-rails CRON[24597]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 05:17:01 frontend-rails CRON[26557]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 06:17:01 frontend-rails CRON[28517]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  5 06:25:01 frontend-rails CRON[28786]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr  3 07:17:01 frontend-rails CRON[831]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 08:17:01 frontend-rails CRON[2861]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 09:17:01 frontend-rails CRON[4803]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 10:17:01 frontend-rails CRON[6760]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 11:17:01 frontend-rails CRON[8714]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 12:17:01 frontend-rails CRON[10667]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 13:17:01 frontend-rails CRON[12638]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 14:17:01 frontend-rails CRON[14595]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 15:17:01 frontend-rails CRON[16550]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 16:17:01 frontend-rails CRON[18505]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 17:17:01 frontend-rails CRON[20464]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 18:17:01 frontend-rails CRON[22429]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 19:17:01 frontend-rails CRON[24393]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 20:17:01 frontend-rails CRON[26349]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 21:17:01 frontend-rails CRON[28313]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 22:17:01 frontend-rails CRON[30335]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 23:17:01 frontend-rails CRON[32295]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 00:17:01 frontend-rails CRON[1869]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 01:17:01 frontend-rails CRON[3838]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 02:17:01 frontend-rails CRON[5792]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 03:17:01 frontend-rails CRON[7753]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 04:17:01 frontend-rails CRON[9727]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 05:17:01 frontend-rails CRON[11687]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 06:17:01 frontend-rails CRON[13644]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  4 06:25:01 frontend-rails CRON[13907]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr  2 07:17:01 frontend-rails CRON[18353]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 08:17:01 frontend-rails CRON[20319]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 09:17:01 frontend-rails CRON[22285]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 10:17:01 frontend-rails CRON[24241]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 11:17:01 frontend-rails CRON[26202]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 12:17:01 frontend-rails CRON[28162]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 13:17:01 frontend-rails CRON[30126]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 14:17:01 frontend-rails CRON[32093]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 15:17:01 frontend-rails CRON[1654]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 16:17:01 frontend-rails CRON[3624]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 17:17:01 frontend-rails CRON[5620]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 18:17:01 frontend-rails CRON[7591]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 19:17:01 frontend-rails CRON[9558]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 20:17:01 frontend-rails CRON[11513]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 21:09:22 frontend-rails google-address-manager: ERROR SyncAddresses exception: HTTP Error 503: Service Unavailable
+Apr  2 21:09:23 frontend-rails kernel: [182043.624965] Clocksource tsc unstable (delta = 241092263 ns)
+Apr  2 21:17:01 frontend-rails CRON[13489]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 22:17:01 frontend-rails CRON[15459]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 23:17:01 frontend-rails CRON[17418]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 00:17:01 frontend-rails CRON[19379]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 01:17:01 frontend-rails CRON[21342]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 02:17:01 frontend-rails CRON[23294]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 03:17:01 frontend-rails CRON[25253]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 04:17:01 frontend-rails CRON[27214]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 05:17:01 frontend-rails CRON[29175]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 06:17:01 frontend-rails CRON[31129]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  3 06:25:01 frontend-rails CRON[31391]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr  1 06:52:01 frontend-rails CRON[2058]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly ))
+Apr  1 07:17:01 frontend-rails CRON[2886]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 08:17:01 frontend-rails CRON[4848]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 09:17:01 frontend-rails CRON[6809]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 10:17:01 frontend-rails CRON[8769]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 11:17:01 frontend-rails CRON[10756]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 12:17:01 frontend-rails CRON[12720]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 13:17:01 frontend-rails CRON[14697]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 14:17:01 frontend-rails CRON[16659]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 15:17:01 frontend-rails CRON[18627]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 16:17:01 frontend-rails CRON[20588]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 17:17:01 frontend-rails CRON[22545]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 18:17:01 frontend-rails CRON[24507]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 19:17:01 frontend-rails CRON[26475]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 20:17:01 frontend-rails CRON[28436]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 21:17:01 frontend-rails CRON[30394]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 22:17:01 frontend-rails CRON[32354]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 23:17:01 frontend-rails CRON[1931]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 00:17:01 frontend-rails CRON[3907]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 01:17:01 frontend-rails CRON[5878]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 02:17:01 frontend-rails CRON[7850]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 03:17:01 frontend-rails CRON[9821]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 04:17:01 frontend-rails CRON[11784]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 05:17:01 frontend-rails CRON[13761]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 06:17:01 frontend-rails CRON[15723]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 06:25:01 frontend-rails CRON[15988]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 12 07:17:01 frontend-rails CRON[17789]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 08:17:01 frontend-rails CRON[19759]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 09:17:01 frontend-rails CRON[21705]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 10:17:01 frontend-rails CRON[23713]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 11:17:01 frontend-rails CRON[25676]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 12:17:01 frontend-rails CRON[27647]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 13:17:01 frontend-rails CRON[29646]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 14:17:01 frontend-rails CRON[31610]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 15:17:01 frontend-rails CRON[1144]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 16:17:01 frontend-rails CRON[3123]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 16:33:18 frontend-rails dbus[797]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Mar 12 16:33:18 frontend-rails dbus[797]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Mar 12 16:33:19 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="809" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Mar 31 18:35:37 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="930" x-info="http://www.rsyslog.com"] start
+Mar 31 18:35:37 frontend-rails rsyslogd-2307: warning: ~ action is deprecated, consider using the 'stop' statement instead [try http://www.rsyslog.com/e/2307 ]
+Mar 31 18:35:37 frontend-rails rsyslogd: rsyslogd's groupid changed to 104
+Mar 31 18:35:37 frontend-rails rsyslogd: rsyslogd's userid changed to 101
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Linux version 3.16.0-31-generic (buildd@toyol) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #43~14.04.1-Ubuntu SMP Tue Mar 10 20:13:38 UTC 2015 (Ubuntu 3.16.0-31.43~14.04.1-generic 3.16.7-ckt5)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=0e501679-6d73-47fa-9cf9-558872950040 ro console=ttyS0
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] KERNEL supported cpus:
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   Intel GenuineIntel
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   AMD AuthenticAMD
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   Centaur CentaurHauls
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Disabled fast string operations
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bfffdfff] usable
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000bfffe000-0x00000000bfffffff] reserved
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffbc000-0x00000000ffffffff] reserved
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000021fffffff] usable
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] SMBIOS 2.4 present.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] DMI: Google Google, BIOS Google 01/01/2011
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Hypervisor detected: KVM
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] AGP: No AGP bridge found
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] e820: last_pfn = 0x220000 max_arch_pfn = 0x400000000
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] MTRR default type: write-back
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] MTRR fixed ranges enabled:
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   00000-9FFFF write-back
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   A0000-BFFFF uncachable
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   C0000-FFFFF write-protect
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] MTRR variable ranges enabled:
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   0 base 0000C0000000 mask 3FFFC0000000 uncachable
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   1 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   2 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   3 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   4 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   5 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   6 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   7 disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x70106, new 0x7010600070106
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] e820: last_pfn = 0xbfffe max_arch_pfn = 0x400000000
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] found SMP MP-table at [mem 0x000fdaf0-0x000fdaff] mapped at [ffff8800000fdaf0]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Using GB pages for direct mapping
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BRK [0x01fbe000, 0x01fbefff] PGTABLE
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BRK [0x01fbf000, 0x01fbffff] PGTABLE
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BRK [0x01fc0000, 0x01fc0fff] PGTABLE
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x21fe00000-0x21fffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x21fe00000-0x21fffffff] page 2M
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] BRK [0x01fc1000, 0x01fc1fff] PGTABLE
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x21c000000-0x21fdfffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x21c000000-0x21fdfffff] page 2M
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x200000000-0x21bffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x200000000-0x21bffffff] page 2M
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0xbfffdfff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x00200000-0x3fffffff] page 2M
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x40000000-0x7fffffff] page 1G
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x80000000-0xbfdfffff] page 2M
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0xbfe00000-0xbfffdfff] page 4k
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x100000000-0x1ffffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [mem 0x100000000-0x1ffffffff] page 1G
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] RAMDISK: [mem 0x3758c000-0x37abdfff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: RSDP 0x00000000000FD910 000014 (v00 Google)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: RSDT 0x00000000BFFFE080 000034 (v01 Google GOOGRSDT 00000001 GOOG 00000001)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: FACP 0x00000000BFFFFF00 0000F4 (v02 Google GOOGFACP 00000001 GOOG 00000001)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: DSDT 0x00000000BFFFE0C0 00150A (v01 GOOG   GODSDT   00000001 INTL 20140214)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: FACS 0x00000000BFFFFEC0 000040
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: SSDT 0x00000000BFFFF720 00079E (v01 Google GOOGSSDT 00000001 GOOG 00000001)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: APIC 0x00000000BFFFF600 000076 (v01 Google GOOGAPIC 00000001 GOOG 00000001)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: WAET 0x00000000BFFFF5D0 000028 (v01 Google GOOGWAET 00000001 GOOG 00000001)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] No NUMA configuration found
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000021fffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x21fffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   NODE_DATA [mem 0x21fff9000-0x21fffdfff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] kvm-clock: cpu 0, msr 2:1fff5001, primary cpu clock
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]  [ffffea0000000000-ffffea00087fffff] PMD -> [ffff880217e00000-ffff88021f5fffff] on node 0
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Zone ranges:
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   Normal   [mem 0x100000000-0x21fffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Movable zone start for each node
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Early memory node ranges
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   node   0: [mem 0x00100000-0xbfffdfff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   node   0: [mem 0x100000000-0x21fffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] On node 0 totalpages: 1965980
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA zone: 21 pages reserved
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA32 zone: 12224 pages used for memmap
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   DMA32 zone: 782334 pages, LIFO batch:31
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   Normal zone: 18432 pages used for memmap
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000]   Normal zone: 1179648 pages, LIFO batch:31
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: IRQ5 used by override.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: IRQ9 used by override.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: IRQ10 used by override.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] ACPI: IRQ11 used by override.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] nr_irqs_gsi: 40
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xbfffe000-0xbfffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xc0000000-0xfffbbfff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffbc000-0xffffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] e820: [mem 0xc0000000-0xfffbbfff] available for PCI devices
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88021fc00000 s82304 r8192 d24192 u1048576
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] pcpu-alloc: s82304 r8192 d24192 u1048576 alloc=1*2097152
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 1935239
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Policy zone: Normal
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=0e501679-6d73-47fa-9cf9-558872950040 ro console=ttyS0
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] AGP: Checking aperture...
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] AGP: No AGP bridge found
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Memory: 7652924K/7863920K available (7617K kernel code, 1131K rwdata, 3596K rodata, 1356K init, 1300K bss, 210996K reserved)
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Hierarchical RCU implementation.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] 	Offload RCU callbacks from all CPUs
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] 	Offload RCU callbacks from CPUs: 0-1.
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] Console: colour VGA+ 80x25
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] console [ttyS0] enabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] allocated 31457280 bytes of page_cgroup
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar 31 18:35:37 frontend-rails kernel: [    0.000000] tsc: Detected 2500.000 MHz processor
+Mar 31 18:35:37 frontend-rails kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 5000.00 BogoMIPS (lpj=10000000)
+Mar 31 18:35:37 frontend-rails kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Mar 31 18:35:37 frontend-rails kernel: [    0.008000] ACPI: Core revision 20140424
+Mar 31 18:35:37 frontend-rails kernel: [    0.008242] ACPI: All ACPI Tables successfully acquired
+Mar 31 18:35:37 frontend-rails kernel: [    0.009188] Security Framework initialized
+Mar 31 18:35:37 frontend-rails kernel: [    0.009841] AppArmor: AppArmor initialized
+Mar 31 18:35:37 frontend-rails kernel: [    0.010564] Yama: becoming mindful.
+Mar 31 18:35:37 frontend-rails kernel: [    0.011573] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.021112] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.026166] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.027215] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.028659] Initializing cgroup subsys memory
+Mar 31 18:35:37 frontend-rails kernel: [    0.029366] Initializing cgroup subsys devices
+Mar 31 18:35:37 frontend-rails kernel: [    0.030026] Initializing cgroup subsys freezer
+Mar 31 18:35:37 frontend-rails kernel: [    0.030672] Initializing cgroup subsys net_cls
+Mar 31 18:35:37 frontend-rails kernel: [    0.031315] Initializing cgroup subsys blkio
+Mar 31 18:35:37 frontend-rails kernel: [    0.032008] Initializing cgroup subsys perf_event
+Mar 31 18:35:37 frontend-rails kernel: [    0.032686] Initializing cgroup subsys net_prio
+Mar 31 18:35:37 frontend-rails kernel: [    0.033385] Initializing cgroup subsys hugetlb
+Mar 31 18:35:37 frontend-rails kernel: [    0.034120] Disabled fast string operations
+Mar 31 18:35:37 frontend-rails kernel: [    0.034743] CPU: Physical Processor ID: 0
+Mar 31 18:35:37 frontend-rails kernel: [    0.035352] CPU: Processor Core ID: 0
+Mar 31 18:35:37 frontend-rails kernel: [    0.036833] mce: CPU supports 32 MCE banks
+Mar 31 18:35:37 frontend-rails kernel: [    0.037572] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Mar 31 18:35:37 frontend-rails kernel: [    0.037572] Last level dTLB entries: 4KB 512, 2MB 0, 4MB 0, 1GB 4
+Mar 31 18:35:37 frontend-rails kernel: [    0.037572] tlb_flushall_shift: 6
+Mar 31 18:35:37 frontend-rails kernel: [    0.040280] Freeing SMP alternatives memory: 32K (ffffffff81e6f000 - ffffffff81e77000)
+Mar 31 18:35:37 frontend-rails kernel: [    0.044960] ftrace: allocating 29221 entries in 115 pages
+Mar 31 18:35:37 frontend-rails kernel: [    0.052576] Enabling x2apic
+Mar 31 18:35:37 frontend-rails kernel: [    0.053149] Enabled x2apic
+Mar 31 18:35:37 frontend-rails kernel: [    0.053980] Switched APIC routing to physical x2apic.
+Mar 31 18:35:37 frontend-rails kernel: [    0.056404] ..TIMER: vector=0x30 apic1=0 pin1=0 apic2=-1 pin2=-1
+Mar 31 18:35:37 frontend-rails kernel: [    0.057298] smpboot: CPU0: Intel(R) Xeon(R) CPU @ 2.50GHz (fam: 06, model: 3e, stepping: 04)
+Mar 31 18:35:37 frontend-rails kernel: [    0.060000] Performance Events: unsupported p6 CPU model 62 no PMU driver, software events only.
+Mar 31 18:35:37 frontend-rails kernel: [    0.060000] x86: Booting SMP configuration:
+Mar 31 18:35:37 frontend-rails kernel: [    0.060005] .... node  #0, CPUs:      #1
+Mar 31 18:35:37 frontend-rails kernel: [    0.060000] kvm-clock: cpu 1, msr 2:1fff5041, secondary cpu clock
+Mar 31 18:35:37 frontend-rails kernel: [    0.072082] NMI watchdog: disabled (cpu0): hardware events not enabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.060000] Disabled fast string operations
+Mar 31 18:35:37 frontend-rails kernel: [    0.076033] x86: Booted up 1 node, 2 CPUs
+Mar 31 18:35:37 frontend-rails kernel: [    0.076665] smpboot: Total of 2 processors activated (10000.00 BogoMIPS)
+Mar 31 18:35:37 frontend-rails kernel: [    0.078063] devtmpfs: initialized
+Mar 31 18:35:37 frontend-rails kernel: [    0.081623] evm: security.selinux
+Mar 31 18:35:37 frontend-rails kernel: [    0.082126] evm: security.SMACK64
+Mar 31 18:35:37 frontend-rails kernel: [    0.082607] evm: security.SMACK64EXEC
+Mar 31 18:35:37 frontend-rails kernel: [    0.083177] evm: security.SMACK64TRANSMUTE
+Mar 31 18:35:37 frontend-rails kernel: [    0.083777] evm: security.SMACK64MMAP
+Mar 31 18:35:37 frontend-rails kernel: [    0.084003] evm: security.ima
+Mar 31 18:35:37 frontend-rails kernel: [    0.084438] evm: security.capability
+Mar 31 18:35:37 frontend-rails kernel: [    0.085077] pinctrl core: initialized pinctrl subsystem
+Mar 31 18:35:37 frontend-rails kernel: [    0.085892] regulator-dummy: no parameters
+Mar 31 18:35:37 frontend-rails kernel: [    0.088082] RTC time: 18:35:19, date: 03/31/15
+Mar 31 18:35:37 frontend-rails kernel: [    0.088839] NET: Registered protocol family 16
+Mar 31 18:35:37 frontend-rails kernel: [    0.089688] cpuidle: using governor ladder
+Mar 31 18:35:37 frontend-rails kernel: [    0.090320] cpuidle: using governor menu
+Mar 31 18:35:37 frontend-rails kernel: [    0.090961] ACPI: bus type PCI registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.091566] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 31 18:35:37 frontend-rails kernel: [    0.092189] PCI: Using configuration type 1 for base access
+Mar 31 18:35:37 frontend-rails kernel: [    0.100130] ACPI: Added _OSI(Module Device)
+Mar 31 18:35:37 frontend-rails kernel: [    0.100768] ACPI: Added _OSI(Processor Device)
+Mar 31 18:35:37 frontend-rails kernel: [    0.101425] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 31 18:35:37 frontend-rails kernel: [    0.102126] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 31 18:35:37 frontend-rails kernel: [    0.105506] ACPI: Interpreter enabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.106064] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Mar 31 18:35:37 frontend-rails kernel: [    0.107436] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Mar 31 18:35:37 frontend-rails kernel: [    0.108808] ACPI: (supports S0 S3 S4 S5)
+Mar 31 18:35:37 frontend-rails kernel: [    0.109427] ACPI: Using IOAPIC for interrupt routing
+Mar 31 18:35:37 frontend-rails kernel: [    0.110161] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 31 18:35:37 frontend-rails kernel: [    0.113838] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 31 18:35:37 frontend-rails kernel: [    0.114723] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 31 18:35:37 frontend-rails kernel: [    0.115693] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar 31 18:35:37 frontend-rails kernel: [    0.116077] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 31 18:35:37 frontend-rails kernel: [    0.118547] PCI host bridge to bus 0000:00
+Mar 31 18:35:37 frontend-rails kernel: [    0.119146] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.120008] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Mar 31 18:35:37 frontend-rails kernel: [    0.120931] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.121817] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.122822] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.124064] pci 0000:00:01.0: [8086:7110] type 00 class 0x060100
+Mar 31 18:35:37 frontend-rails kernel: [    0.137144] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Mar 31 18:35:37 frontend-rails kernel: [    0.148974] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Mar 31 18:35:37 frontend-rails kernel: [    0.150379] pci 0000:00:03.0: [1af4:1004] type 00 class 0x000000
+Mar 31 18:35:37 frontend-rails kernel: [    0.153680] pci 0000:00:03.0: reg 0x10: [io  0xc000-0xc03f]
+Mar 31 18:35:37 frontend-rails kernel: [    0.156853] pci 0000:00:03.0: reg 0x14: [mem 0xfebfe000-0xfebfe07f]
+Mar 31 18:35:37 frontend-rails kernel: [    0.166991] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Mar 31 18:35:37 frontend-rails kernel: [    0.170494] pci 0000:00:04.0: reg 0x10: [io  0xc040-0xc07f]
+Mar 31 18:35:37 frontend-rails kernel: [    0.173722] pci 0000:00:04.0: reg 0x14: [mem 0xfebff000-0xfebff07f]
+Mar 31 18:35:37 frontend-rails kernel: [    0.184690] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Mar 31 18:35:37 frontend-rails kernel: [    0.185788] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Mar 31 18:35:37 frontend-rails kernel: [    0.186886] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Mar 31 18:35:37 frontend-rails kernel: [    0.187895] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Mar 31 18:35:37 frontend-rails kernel: [    0.188305] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Mar 31 18:35:37 frontend-rails kernel: [    0.189660] ACPI: Enabled 16 GPEs in block 00 to 0F
+Mar 31 18:35:37 frontend-rails kernel: [    0.190546] vgaarb: loaded
+Mar 31 18:35:37 frontend-rails kernel: [    0.190546] SCSI subsystem initialized
+Mar 31 18:35:37 frontend-rails kernel: [    0.192068] libata version 3.00 loaded.
+Mar 31 18:35:37 frontend-rails kernel: [    0.192068] ACPI: bus type USB registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.192831] usbcore: registered new interface driver usbfs
+Mar 31 18:35:37 frontend-rails kernel: [    0.193684] usbcore: registered new interface driver hub
+Mar 31 18:35:37 frontend-rails kernel: [    0.194473] usbcore: registered new device driver usb
+Mar 31 18:35:37 frontend-rails kernel: [    0.196132] PCI: Using ACPI for IRQ routing
+Mar 31 18:35:37 frontend-rails kernel: [    0.196683] PCI: pci_cache_line_size set to 64 bytes
+Mar 31 18:35:37 frontend-rails kernel: [    0.196774] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.196776] e820: reserve RAM buffer [mem 0xbfffe000-0xbfffffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.196934] NetLabel: Initializing
+Mar 31 18:35:37 frontend-rails kernel: [    0.196934] NetLabel:  domain hash size = 128
+Mar 31 18:35:37 frontend-rails kernel: [    0.196934] NetLabel:  protocols = UNLABELED CIPSOv4
+Mar 31 18:35:37 frontend-rails kernel: [    0.197395] NetLabel:  unlabeled traffic allowed by default
+Mar 31 18:35:37 frontend-rails kernel: [    0.200094] Switched to clocksource kvm-clock
+Mar 31 18:35:37 frontend-rails kernel: [    0.210780] AppArmor: AppArmor Filesystem Enabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.211505] pnp: PnP ACPI init
+Mar 31 18:35:37 frontend-rails kernel: [    0.211983] ACPI: bus type PNP registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.212687] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 31 18:35:37 frontend-rails kernel: [    0.212882] pnp 00:01: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 31 18:35:37 frontend-rails kernel: [    0.212979] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 31 18:35:37 frontend-rails kernel: [    0.213137] pnp: PnP ACPI: found 3 devices
+Mar 31 18:35:37 frontend-rails kernel: [    0.213867] ACPI: bus type PNP unregistered
+Mar 31 18:35:37 frontend-rails kernel: [    0.224379] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Mar 31 18:35:37 frontend-rails kernel: [    0.224381] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.224382] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.224384] pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfebfffff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.224427] NET: Registered protocol family 2
+Mar 31 18:35:37 frontend-rails kernel: [    0.225310] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.226885] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.228769] TCP: Hash tables configured (established 65536 bind 65536)
+Mar 31 18:35:37 frontend-rails kernel: [    0.229889] TCP: reno registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.230383] UDP hash table entries: 4096 (order: 5, 131072 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.231495] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.232650] NET: Registered protocol family 1
+Mar 31 18:35:37 frontend-rails kernel: [    0.233352] PCI: CLS 0 bytes, default 64
+Mar 31 18:35:37 frontend-rails kernel: [    0.233432] Trying to unpack rootfs image as initramfs...
+Mar 31 18:35:37 frontend-rails kernel: [    0.779301] Freeing initrd memory: 5320K (ffff88003758c000 - ffff880037abe000)
+Mar 31 18:35:37 frontend-rails kernel: [    0.780478] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Mar 31 18:35:37 frontend-rails kernel: [    0.781536] software IO TLB [mem 0xbbffe000-0xbfffe000] (64MB) mapped at [ffff8800bbffe000-ffff8800bfffdfff]
+Mar 31 18:35:37 frontend-rails kernel: [    0.783364] RAPL PMU detected, hw unit 2^-0 Joules, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+Mar 31 18:35:37 frontend-rails kernel: [    0.785061] microcode: CPU0 sig=0x306e4, pf=0x1, revision=0x1
+Mar 31 18:35:37 frontend-rails kernel: [    0.786301] microcode: CPU1 sig=0x306e4, pf=0x1, revision=0x1
+Mar 31 18:35:37 frontend-rails kernel: [    0.787309] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar 31 18:35:37 frontend-rails kernel: [    0.788691] Scanning for low memory corruption every 60 seconds
+Mar 31 18:35:37 frontend-rails kernel: [    0.790064] futex hash table entries: 512 (order: 3, 32768 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.791050] Initialise system trusted keyring
+Mar 31 18:35:37 frontend-rails kernel: [    0.791752] audit: initializing netlink subsys (disabled)
+Mar 31 18:35:37 frontend-rails kernel: [    0.792789] audit: type=2000 audit(1427826920.390:1): initialized
+Mar 31 18:35:37 frontend-rails kernel: [    0.794085] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar 31 18:35:37 frontend-rails kernel: [    0.796837] zpool: loaded
+Mar 31 18:35:37 frontend-rails kernel: [    0.797268] zbud: loaded
+Mar 31 18:35:37 frontend-rails kernel: [    0.797967] VFS: Disk quotas dquot_6.5.2
+Mar 31 18:35:37 frontend-rails kernel: [    0.798586] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 31 18:35:37 frontend-rails kernel: [    0.800252] fuse init (API version 7.23)
+Mar 31 18:35:37 frontend-rails kernel: [    0.801051] msgmni has been set to 14957
+Mar 31 18:35:37 frontend-rails kernel: [    0.801749] Key type big_key registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.803791] Key type asymmetric registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.804422] Asymmetric key parser 'x509' registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.805163] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar 31 18:35:37 frontend-rails kernel: [    0.806515] io scheduler noop registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.807111] io scheduler deadline registered (default)
+Mar 31 18:35:37 frontend-rails kernel: [    0.807967] io scheduler cfq registered
+Mar 31 18:35:37 frontend-rails kernel: [    0.808698] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar 31 18:35:37 frontend-rails kernel: [    0.809635] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar 31 18:35:37 frontend-rails kernel: [    0.810714] intel_idle: does not run on family 6 model 62
+Mar 31 18:35:37 frontend-rails kernel: [    0.810794] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 31 18:35:37 frontend-rails kernel: [    0.811867] ACPI: Power Button [PWRF]
+Mar 31 18:35:37 frontend-rails kernel: [    0.812510] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar 31 18:35:37 frontend-rails kernel: [    0.813580] ACPI: Sleep Button [SLPF]
+Mar 31 18:35:37 frontend-rails kernel: [    0.814409] GHES: HEST is not enabled!
+Mar 31 18:35:37 frontend-rails kernel: [    0.816759] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Mar 31 18:35:37 frontend-rails kernel: [    0.820927] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 10
+Mar 31 18:35:37 frontend-rails kernel: [    0.824914] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 31 18:35:37 frontend-rails kernel: [    0.847666] 00:01: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Mar 31 18:35:37 frontend-rails kernel: [    0.870803] 00:02: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+Mar 31 18:35:37 frontend-rails kernel: [    0.875185] Linux agpgart interface v0.103
+Mar 31 18:35:37 frontend-rails kernel: [    0.878150] brd: module loaded
+Mar 31 18:35:37 frontend-rails kernel: [    0.879869] loop: module loaded
+Mar 31 18:35:37 frontend-rails kernel: [    0.880589] libphy: Fixed MDIO Bus: probed
+Mar 31 18:35:37 frontend-rails kernel: [    0.881247] tun: Universal TUN/TAP device driver, 1.6
+Mar 31 18:35:37 frontend-rails kernel: [    0.882137] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Mar 31 18:35:37 frontend-rails kernel: [    0.896674] virtio-pci 0000:00:04.0: irq 40 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    0.905673] virtio-pci 0000:00:04.0: irq 41 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    0.921741] virtio-pci 0000:00:04.0: irq 42 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    0.944674] virtio-pci 0000:00:04.0: irq 43 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    0.966668] virtio-pci 0000:00:04.0: irq 44 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    0.981122] PPP generic driver version 2.4.2
+Mar 31 18:35:37 frontend-rails kernel: [    0.981983] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.983145] ehci-pci: EHCI PCI platform driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.983945] ehci-platform: EHCI generic platform driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.984769] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.985780] ohci-pci: OHCI PCI platform driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.986567] ohci-platform: OHCI generic platform driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.987344] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 31 18:35:37 frontend-rails kernel: [    0.988482] i8042: PNP: No PS/2 controller found. Probing ports directly.
+Mar 31 18:35:37 frontend-rails kernel: [    2.121501] i8042: No controller found
+Mar 31 18:35:37 frontend-rails kernel: [    2.122200] tsc: Refined TSC clocksource calibration: 2500.002 MHz
+Mar 31 18:35:37 frontend-rails kernel: [    2.123408] mousedev: PS/2 mouse device common for all mice
+Mar 31 18:35:37 frontend-rails kernel: [    2.124637] rtc_cmos 00:00: RTC can wake from S4
+Mar 31 18:35:37 frontend-rails kernel: [    2.125797] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Mar 31 18:35:37 frontend-rails kernel: [    2.127027] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Mar 31 18:35:37 frontend-rails kernel: [    2.128048] device-mapper: uevent: version 1.0.3
+Mar 31 18:35:37 frontend-rails kernel: [    2.128881] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Mar 31 18:35:37 frontend-rails kernel: [    2.130200] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 31 18:35:37 frontend-rails kernel: [    2.131233] TCP: cubic registered
+Mar 31 18:35:37 frontend-rails kernel: [    2.131866] NET: Registered protocol family 10
+Mar 31 18:35:37 frontend-rails kernel: [    2.132962] NET: Registered protocol family 17
+Mar 31 18:35:37 frontend-rails kernel: [    2.133653] Key type dns_resolver registered
+Mar 31 18:35:37 frontend-rails kernel: [    2.134788] Loading compiled-in X.509 certificates
+Mar 31 18:35:37 frontend-rails kernel: [    2.136227] Loaded X.509 cert 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584'
+Mar 31 18:35:37 frontend-rails kernel: [    2.137697] registered taskstats version 1
+Mar 31 18:35:37 frontend-rails kernel: [    2.140578] Key type trusted registered
+Mar 31 18:35:37 frontend-rails kernel: [    2.144986] Key type encrypted registered
+Mar 31 18:35:37 frontend-rails kernel: [    2.145657] AppArmor: AppArmor sha1 policy hashing enabled
+Mar 31 18:35:37 frontend-rails kernel: [    2.146508] ima: No TPM chip found, activating TPM-bypass!
+Mar 31 18:35:37 frontend-rails kernel: [    2.147324] evm: HMAC attrs: 0x1
+Mar 31 18:35:37 frontend-rails kernel: [    2.148134]   Magic number: 7:251:596
+Mar 31 18:35:37 frontend-rails kernel: [    2.148870] rtc_cmos 00:00: setting system clock to 2015-03-31 18:35:21 UTC (1427826921)
+Mar 31 18:35:37 frontend-rails kernel: [    2.150199] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Mar 31 18:35:37 frontend-rails kernel: [    2.151112] EDD information not available.
+Mar 31 18:35:37 frontend-rails kernel: [    2.151805] PM: Hibernation image not present or could not be loaded.
+Mar 31 18:35:37 frontend-rails kernel: [    2.152968] Freeing unused kernel memory: 1356K (ffffffff81d1c000 - ffffffff81e6f000)
+Mar 31 18:35:37 frontend-rails kernel: [    2.154630] Write protecting the kernel read-only data: 12288k
+Mar 31 18:35:37 frontend-rails kernel: [    2.157045] Freeing unused kernel memory: 564K (ffff880001773000 - ffff880001800000)
+Mar 31 18:35:37 frontend-rails kernel: [    2.159675] Freeing unused kernel memory: 500K (ffff880001b83000 - ffff880001c00000)
+Mar 31 18:35:37 frontend-rails kernel: [    2.175444] systemd-udevd[101]: starting version 204
+Mar 31 18:35:37 frontend-rails kernel: [    2.226695] virtio-pci 0000:00:03.0: irq 45 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    2.246678] virtio-pci 0000:00:03.0: irq 46 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    2.259678] virtio-pci 0000:00:03.0: irq 47 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    2.396729] virtio-pci 0000:00:03.0: irq 48 for MSI/MSI-X
+Mar 31 18:35:37 frontend-rails kernel: [    2.408841] scsi0 : Virtio SCSI HBA
+Mar 31 18:35:37 frontend-rails kernel: [    2.565784] AVX version of gcm_enc/dec engaged.
+Mar 31 18:35:37 frontend-rails kernel: [    2.567378] scsi 0:0:1:0: Direct-Access     Google   PersistentDisk   1    PQ: 0 ANSI: 6
+Mar 31 18:35:37 frontend-rails kernel: [    2.594612] sd 0:0:1:0: Attached scsi generic sg0 type 0
+Mar 31 18:35:37 frontend-rails kernel: [    2.594891] sd 0:0:1:0: [sda] 20971520 512-byte logical blocks: (10.7 GB/10.0 GiB)
+Mar 31 18:35:37 frontend-rails kernel: [    2.594893] sd 0:0:1:0: [sda] 4096-byte physical blocks
+Mar 31 18:35:37 frontend-rails kernel: [    2.595413] sd 0:0:1:0: [sda] Write Protect is off
+Mar 31 18:35:37 frontend-rails kernel: [    2.595415] sd 0:0:1:0: [sda] Mode Sense: 1f 00 00 08
+Mar 31 18:35:37 frontend-rails kernel: [    2.595558] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar 31 18:35:37 frontend-rails kernel: [    2.607885]  sda: sda1
+Mar 31 18:35:37 frontend-rails kernel: [    2.611409] sd 0:0:1:0: [sda] Attached SCSI disk
+Mar 31 18:35:37 frontend-rails kernel: [    5.564172] floppy0: no floppy controllers found
+Mar 31 18:35:37 frontend-rails kernel: [    6.694455] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 31 18:35:37 frontend-rails kernel: [    7.985425] random: init urandom read with 123 bits of entropy available
+Mar 31 18:35:37 frontend-rails kernel: [    8.093198] random: nonblocking pool is initialized
+Mar 31 18:35:37 frontend-rails kernel: [    8.978132] EXT4-fs (sda1): re-mounted. Opts: (null)
+Mar 31 18:35:37 frontend-rails kernel: [   14.332300] systemd-udevd[423]: starting version 204
+Mar 31 18:35:37 frontend-rails kernel: [   15.097349] device-mapper: multipath: version 1.7.0 loaded
+Mar 31 18:35:37 frontend-rails kernel: [   15.224930] ppdev: user-space parallel port driver
+Mar 31 18:35:37 frontend-rails kernel: [   15.508790] audit: type=1400 audit(1427826934.855:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=480 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.508799] audit: type=1400 audit(1427826934.855:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=480 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.508804] audit: type=1400 audit(1427826934.855:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=480 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.508851] audit: type=1400 audit(1427826934.855:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=487 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.508857] audit: type=1400 audit(1427826934.855:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=487 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.508862] audit: type=1400 audit(1427826934.855:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=487 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.509289] audit: type=1400 audit(1427826934.855:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=480 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.509296] audit: type=1400 audit(1427826934.855:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=480 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.509305] audit: type=1400 audit(1427826934.855:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=487 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   15.509309] audit: type=1400 audit(1427826934.855:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=487 comm="apparmor_parser"
+Mar 31 18:35:37 frontend-rails kernel: [   17.894123] init: failsafe main process (810) killed by TERM signal
+Mar 31 18:35:37 frontend-rails kernel: [   18.084107] floppy0: no floppy controllers found
+Mar 31 18:35:37 frontend-rails kernel: [   18.084170] work still pending
+Mar 31 18:35:37 frontend-rails rsyslogd-2039: Could no open output pipe '/dev/xconsole': No such file or directory [try http://www.rsyslog.com/e/2039 ]
+Mar 31 18:35:37 frontend-rails dbus[948]: [system] AppArmor D-Bus mediation is enabled
+Mar 31 18:35:38 frontend-rails pollinate[1049]: system was previously seeded at [2015-03-02 20:09:24.009653000 +0000]
+Mar 31 18:35:38 frontend-rails pollinate[1052]: To re-seed this system again, use the -r|--reseed option
+Mar 31 18:35:39 frontend-rails acpid: starting up with netlink and the input layer
+Mar 31 18:35:39 frontend-rails cron[1037]: (CRON) INFO (pidfile fd = 3)
+Mar 31 18:35:39 frontend-rails acpid: 1 rule loaded
+Mar 31 18:35:39 frontend-rails acpid: waiting for events: event logging is off
+Mar 31 18:35:39 frontend-rails cron[1082]: (CRON) STARTUP (fork ok)
+Mar 31 18:35:39 frontend-rails cron[1082]: (CRON) INFO (Running @reboot jobs)
+Mar 31 18:35:41 frontend-rails kernel: [   21.838797] ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 31 18:35:41 frontend-rails kernel: [   21.919251] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Mar 31 18:35:41 frontend-rails ntpd[1294]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 31 18:35:41 frontend-rails ntpd[1298]: proto: precision = 0.116 usec
+Mar 31 18:35:41 frontend-rails ntpd[1298]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 31 18:35:41 frontend-rails ntpd[1298]: unable to bind to wildcard address 0.0.0.0 - another process may be running - EXITING
+Mar 31 18:35:41 frontend-rails virtionet-irq-affinity: Running virtionet-irq-affinity
+Mar 31 18:35:42 frontend-rails virtionet-irq-affinity: Set channels for eth0 to 2
+Mar 31 18:35:42 frontend-rails virtionet-irq-affinity: Setting /proc/irq/41/smp_affinity to 1 for device virtio1
+Mar 31 18:35:42 frontend-rails virtionet-irq-affinity: Setting /proc/irq/42/smp_affinity to 1 for device virtio1
+Mar 31 18:35:42 frontend-rails kernel: [   22.750258] init: plymouth-upstart-bridge main process ended, respawning
+Mar 31 18:35:42 frontend-rails virtionet-irq-affinity: Setting /proc/irq/43/smp_affinity to 2 for device virtio1
+Mar 31 18:35:42 frontend-rails virtionet-irq-affinity: Setting /proc/irq/44/smp_affinity to 2 for device virtio1
+Mar 31 18:35:42 frontend-rails google-address-manager: INFO Starting GCE address manager
+Mar 31 18:35:42 frontend-rails google: onboot initializing
+Mar 31 18:35:42 frontend-rails google: Running Boto setup script at /usr/share/google/boto/boot_setup.py
+Mar 31 18:35:42 frontend-rails google: SSH public key fingerprints
+Mar 31 18:35:42 frontend-rails google: RSA public key
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1451]: Upgrading MySQL tables if necessary.
+Mar 31 18:35:42 frontend-rails google: DSA public key
+Mar 31 18:35:42 frontend-rails google: ECDSA public key
+Mar 31 18:35:42 frontend-rails google: Running google_run_startup_scripts.conf
+Mar 31 18:35:42 frontend-rails google: {"attributes":{"sshKeys":"aja_hammerly_gmail_com:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCdJWOQs6qL/M6iirNQAxeIrbn36E16Gi0TyPp9Ated1y6+qCigP1IbM1cVCsUOwuLWE5vo94PDoFnTPQuPQa+TsIzKFpFuIiPcmgfE7GnnNJGXHVOD7cf7CB46u6cLKC5CkGo2mIiaKB6w1MSwnXYXcDbK243O6XN5w2ZgpzAX1P3+v6YTEg7Q4vtt3GTBLhYGdHoZ3YPr+DcHkOoIjoBJHlWDNXzb+smZ8Ikea3bT2MFd81cTI9gSKvo1oswrOdvCfxevYPO2EPq4CnTxPKZfFudsauZmhAMAtBZ3mqkbX1F8RXfavXoaU/gQsVId2tk+coJ9GIucQ/uYGl+isFCL google-ssh {\"userName\":\"aja.hammerly@gmail.com\",\"expireOn\":\"2015-03-10T17:30:12+0000\"}\naja_hammerly_gmail_com:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBW06ftW1GalmL0Dkwa8dCCi+1zHJge7o35RDt7CQbOQdyXFLoEdi6PozeL3u3wZQl96B8LBjxBpkVlEczQhsi0= google-ssh {\"userName\":\"aja.hammerly@gmail.com\",\"expireOn\":\"2015-03-10T17:30:08+0000\"}\ndeploy:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeMxyz48kzmcms80ODv2N3mhbxxTkwukOOcfKAk0kGBfB0JpSREpim590+wHquUOznrCDHOZ+99opeWN9Jd07SQXDpdZZvgo4LgF/XaGJwPXnRZ6S6IfcAI4BJH8iPkB9Z1UcczmcjdEaL+EOByshRhiwbCWX0FWQTSXmqJNCN3E
+Mar 31 18:35:42 frontend-rails google: c2eHJTL/p4gJjZkXSPuCRJS9uDptMU1MtN+GDsI8opXPFD85v/AGHjMf+KkC09w2qTPSi8Y6Ye6/7QgATwxAgdTMAcHhOxsmFLAEEwhaoKaH/4R+hu6zYdeYNLrcdio6FMiK4lOGVti+AKggaN+rcrQDcX5fLUs3NVK1p/My1H deploy\najahammerly:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrfl+9uEWWej+lmQk3aRdFH9M7zs4PHuVe1/6C8UWCFVV2sRqzLuKiuh/bpoGpwuSfK6Epo7Ojco8TjtSqkrYOFxKsCk0a6Umfv3j4JGhEzFiX2o3BTSLF/RzkGFRCAbo9LHq+wCX84SHr6+BMMRG2eWIbvFrBclFXtVL8fOd3Ofldm1UAbRDnLB7iXTWBwZdoVdEduOScIH+Ke/DXkia2pZ4Vj81cbhGUo3hXu/RXDXibYB+TapOLSU0/k68drZKvb6jlUXJJPvxKuwCf6lLfzORgtqHFwluMvpANYreBXGdwAi/mwO+sNFHH6Bb5KQcb3vfuMnP2fSuQwfjtKLsv ajahammerly@google.com\naja.hammerly:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx7TKF0i49YqMZ4Rsb038PnxMuzlVo/po3IgnROyqkJ+macxkPfywvmBZ3qKdP10qKhWR6/Eet3zlYOvrIGudL2aaBSHsOKDPv168yQ6CKVAR9G74S3qKPl2B61a8FPnzRpCotuqpgNqGDspZrmxlxtshAEz5dyN1EXbJj7RVOVciIx8KEMDsbKrE6duUG4J4lJ5L5F05Xgvz6Fj8exj9u3qHUfQHvVXPl5quI37sjCFUBKB+BgBjlXMvha7L0gtbhHdhb91t1FjogJd4cPFKFMdEutkJ4b2Djd/OrmNVAL1qRS9aVOzLy2LEpTCvNEofqAiWVcoYHZpocyWIktsQR aja.hammerly@gmail.com\n"},"descr
+Mar 31 18:35:42 frontend-rails google: iption":"","disks":[{"deviceName":"frontend-rails","index":0,"mode":"READ_WRITE","type":"PERSISTENT"}],"hostname":"frontend-rails.c.angular-concord-861.internal","id":17643872519476391867,"image":"","licenses":[{"id":"1000010"}],"machineType":"projects/909351439241/machineTypes/n1-standard-2","maintenanceEvent":"NONE","networkInterfaces":[{"accessConfigs":[{"externalIp":"130.211.163.118","type":"ONE_TO_ONE_NAT"}],"forwardedIps":[],"ip":"10.240.16.55","network":"projects/909351439241/networks/default"}],"scheduling":{"automaticRestart":"TRUE","onHostMaintenance":"MIGRATE"},"serviceAccounts":{"909351439241-compute@developer.gserviceaccount.com":{"aliases":["default"],"email":"909351439241-compute@developer.gserviceaccount.com","scopes":["https://www.googleapis.com/auth/devstorage.read_only","https://www.googleapis.com/auth/logging.write"]},"default":{"aliases":["default"],"email":"909351439241-compute@developer.gserviceaccount.com","scopes":["https://www.googleapis.com/auth/devstorage.read_only","https://www.g
+Mar 31 18:35:42 frontend-rails google: oogleapis.com/auth/logging.write"]}},"tags":["http-server","https-server"],"zone":"projects/909351439241/zones/us-central1-f"}
+Mar 31 18:35:42 frontend-rails google: No startup script found in metadata.
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1454]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1454]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1454]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1454]: This installation of MySQL is already upgraded to 5.5.41, use --force if you still need to run mysql_upgrade
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1498]: Checking for insecure root accounts.
+Mar 31 18:35:42 frontend-rails /etc/mysql/debian-start[1503]: Triggering myisam-recover for all MyISAM tables
+Mar 31 18:35:44 frontend-rails ntpdate[760]: adjust time server 169.254.169.254 offset 0.496736 sec
+Mar 31 18:35:44 frontend-rails ntpd[1598]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 31 18:35:44 frontend-rails ntpd[1599]: proto: precision = 0.126 usec
+Mar 31 18:35:44 frontend-rails ntpd[1599]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 31 18:35:44 frontend-rails ntpd[1599]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 31 18:35:44 frontend-rails ntpd[1599]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 31 18:35:44 frontend-rails ntpd[1599]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 31 18:35:44 frontend-rails ntpd[1599]: Listen normally on 3 eth0 10.240.16.55 UDP 123
+Mar 31 18:35:44 frontend-rails ntpd[1599]: peers refreshed
+Mar 31 18:35:44 frontend-rails ntpd[1599]: Listening on routing socket on fd #20 for interface updates
+Mar 31 18:35:53 frontend-rails ntpd[1599]: ntpd exiting on signal 15
+Mar 31 18:36:01 frontend-rails ntpdate[1630]: adjust time server 169.254.169.254 offset -0.000013 sec
+Mar 31 18:36:01 frontend-rails ntpd[1661]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 31 18:36:01 frontend-rails ntpd[1662]: proto: precision = 0.128 usec
+Mar 31 18:36:01 frontend-rails ntpd[1662]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 31 18:36:01 frontend-rails ntpd[1662]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 31 18:36:01 frontend-rails ntpd[1662]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 31 18:36:01 frontend-rails ntpd[1662]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 31 18:36:01 frontend-rails ntpd[1662]: Listen normally on 3 eth0 10.240.16.55 UDP 123
+Mar 31 18:36:01 frontend-rails ntpd[1662]: peers refreshed
+Mar 31 18:36:01 frontend-rails ntpd[1662]: Listening on routing socket on fd #20 for interface updates
+Mar 31 19:17:01 frontend-rails CRON[3594]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 20:17:01 frontend-rails CRON[5641]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 21:17:01 frontend-rails CRON[7593]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 22:17:01 frontend-rails CRON[9605]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 23:17:01 frontend-rails CRON[11595]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 00:17:01 frontend-rails CRON[13682]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 01:17:01 frontend-rails CRON[15657]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 02:17:01 frontend-rails CRON[17622]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 03:17:01 frontend-rails CRON[19589]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 04:17:01 frontend-rails CRON[21552]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 05:17:01 frontend-rails CRON[23520]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 06:17:01 frontend-rails CRON[25489]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  1 06:25:01 frontend-rails CRON[25756]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr  1 06:50:02 frontend-rails kernel: [44082.355264] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+Apr  1 06:50:02 frontend-rails kernel: [44082.520029] raid6: sse2x1    7231 MB/s
+Apr  1 06:50:02 frontend-rails kernel: [44082.588021] raid6: sse2x2    8729 MB/s
+Apr  1 06:50:02 frontend-rails kernel: [44082.656030] raid6: sse2x4   10650 MB/s
+Apr  1 06:50:02 frontend-rails kernel: [44082.656033] raid6: using algorithm sse2x4 (10650 MB/s)
+Apr  1 06:50:02 frontend-rails kernel: [44082.656035] raid6: using ssse3x2 recovery algorithm
+Apr  1 06:50:02 frontend-rails kernel: [44082.676073] xor: automatically using best checksumming function:
+Apr  1 06:50:02 frontend-rails kernel: [44082.716014]    avx       : 20737.000 MB/sec
+Apr  1 06:50:02 frontend-rails kernel: [44082.794247] Btrfs loaded
+Apr  1 06:50:04 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="930" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Mar  9 07:17:01 frontend-rails CRON[21078]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 08:17:01 frontend-rails CRON[23112]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 09:17:01 frontend-rails CRON[25099]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 10:17:01 frontend-rails CRON[27096]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 11:17:01 frontend-rails CRON[29140]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 12:17:01 frontend-rails CRON[31125]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 13:17:01 frontend-rails CRON[642]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 14:17:01 frontend-rails CRON[2720]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 15:17:01 frontend-rails CRON[4805]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 16:17:01 frontend-rails CRON[6839]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 17:17:01 frontend-rails CRON[8824]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 18:17:01 frontend-rails CRON[10858]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 19:17:01 frontend-rails CRON[12897]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 20:17:01 frontend-rails CRON[14935]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 21:17:01 frontend-rails CRON[16915]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 22:17:01 frontend-rails CRON[18964]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  9 23:17:01 frontend-rails CRON[20965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 00:17:01 frontend-rails CRON[22941]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 01:17:01 frontend-rails CRON[24920]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 02:17:01 frontend-rails CRON[26980]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 03:17:01 frontend-rails CRON[28952]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 04:17:01 frontend-rails CRON[30904]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 05:17:01 frontend-rails CRON[354]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 06:17:01 frontend-rails CRON[2949]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 06:25:01 frontend-rails CRON[3204]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 10 07:17:01 frontend-rails CRON[5017]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 08:17:01 frontend-rails CRON[6954]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 09:17:01 frontend-rails CRON[8899]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 10:17:01 frontend-rails CRON[10840]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 11:17:01 frontend-rails CRON[12775]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 12:17:01 frontend-rails CRON[14736]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 13:17:01 frontend-rails CRON[16652]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 14:17:01 frontend-rails CRON[18677]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 15:17:01 frontend-rails CRON[20776]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 16:17:01 frontend-rails CRON[22674]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 17:17:01 frontend-rails CRON[25060]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 17:26:42 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="809" x-info="http://www.rsyslog.com"] start
+Mar 10 17:26:42 frontend-rails rsyslogd-2307: warning: ~ action is deprecated, consider using the 'stop' statement instead [try http://www.rsyslog.com/e/2307 ]
+Mar 10 17:26:42 frontend-rails rsyslogd: rsyslogd's groupid changed to 104
+Mar 10 17:26:42 frontend-rails rsyslogd: rsyslogd's userid changed to 101
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Linux version 3.16.0-31-generic (buildd@tipua) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #41~14.04.1-Ubuntu SMP Wed Feb 11 19:30:13 UTC 2015 (Ubuntu 3.16.0-31.41~14.04.1-generic 3.16.7-ckt5)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=0e501679-6d73-47fa-9cf9-558872950040 ro console=ttyS0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] KERNEL supported cpus:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Intel GenuineIntel
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   AMD AuthenticAMD
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Centaur CentaurHauls
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Disabled fast string operations
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bfffdfff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000bfffe000-0x00000000bfffffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffbc000-0x00000000ffffffff] reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000021fffffff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] SMBIOS 2.4 present.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] DMI: Google Google, BIOS Google 01/01/2011
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Hypervisor detected: KVM
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] AGP: No AGP bridge found
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: last_pfn = 0x220000 max_arch_pfn = 0x400000000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] MTRR default type: write-back
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] MTRR fixed ranges enabled:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   00000-9FFFF write-back
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   A0000-BFFFF uncachable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   C0000-FFFFF write-protect
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] MTRR variable ranges enabled:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   0 base 0000C0000000 mask 3FFFC0000000 uncachable
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   1 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   2 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   3 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   4 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   5 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   6 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   7 disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x70106, new 0x7010600070106
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: last_pfn = 0xbfffe max_arch_pfn = 0x400000000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] found SMP MP-table at [mem 0x000fdaf0-0x000fdaff] mapped at [ffff8800000fdaf0]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Using GB pages for direct mapping
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fbe000, 0x01fbefff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fbf000, 0x01fbffff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fc0000, 0x01fc0fff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x21fe00000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x21fe00000-0x21fffffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] BRK [0x01fc1000, 0x01fc1fff] PGTABLE
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x21c000000-0x21fdfffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x21c000000-0x21fdfffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x200000000-0x21bffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x200000000-0x21bffffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0xbfffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x00200000-0x3fffffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x40000000-0x7fffffff] page 1G
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x80000000-0xbfdfffff] page 2M
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0xbfe00000-0xbfffdfff] page 4k
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] init_memory_mapping: [mem 0x100000000-0x1ffffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [mem 0x100000000-0x1ffffffff] page 1G
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] RAMDISK: [mem 0x3758a000-0x37abcfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: RSDP 0x00000000000FD910 000014 (v00 Google)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: RSDT 0x00000000BFFFE080 000034 (v01 Google GOOGRSDT 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: FACP 0x00000000BFFFFF00 0000F4 (v02 Google GOOGFACP 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: DSDT 0x00000000BFFFE0C0 00150A (v01 GOOG   GODSDT   00000001 INTL 20140214)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: FACS 0x00000000BFFFFEC0 000040
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: SSDT 0x00000000BFFFF720 00079E (v01 Google GOOGSSDT 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: APIC 0x00000000BFFFF600 000076 (v01 Google GOOGAPIC 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: WAET 0x00000000BFFFF5D0 000028 (v01 Google GOOGWAET 00000001 GOOG 00000001)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] No NUMA configuration found
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000021fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   NODE_DATA [mem 0x21fff9000-0x21fffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] kvm-clock: cpu 0, msr 2:1fff5001, primary cpu clock
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]  [ffffea0000000000-ffffea00087fffff] PMD -> [ffff880217e00000-ffff88021f5fffff] on node 0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Zone ranges:
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Normal   [mem 0x100000000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Movable zone start for each node
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Early memory node ranges
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   node   0: [mem 0x00100000-0xbfffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   node   0: [mem 0x100000000-0x21fffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] On node 0 totalpages: 1965980
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA zone: 21 pages reserved
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA32 zone: 12224 pages used for memmap
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   DMA32 zone: 782334 pages, LIFO batch:31
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Normal zone: 18432 pages used for memmap
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000]   Normal zone: 1179648 pages, LIFO batch:31
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ5 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ9 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ10 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] ACPI: IRQ11 used by override.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] nr_irqs_gsi: 40
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xbfffe000-0xbfffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xc0000000-0xfffbbfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffbc000-0xffffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] e820: [mem 0xc0000000-0xfffbbfff] available for PCI devices
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88021fc00000 s82304 r8192 d24192 u1048576
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] pcpu-alloc: s82304 r8192 d24192 u1048576 alloc=1*2097152
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 1935239
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Policy zone: Normal
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=0e501679-6d73-47fa-9cf9-558872950040 ro console=ttyS0
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] AGP: Checking aperture...
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] AGP: No AGP bridge found
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Memory: 7652920K/7863920K available (7617K kernel code, 1131K rwdata, 3596K rodata, 1356K init, 1300K bss, 211000K reserved)
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Hierarchical RCU implementation.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	Offload RCU callbacks from all CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] 	Offload RCU callbacks from CPUs: 0-1.
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] Console: colour VGA+ 80x25
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] console [ttyS0] enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] allocated 31457280 bytes of page_cgroup
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar 10 17:26:42 frontend-rails kernel: [    0.000000] tsc: Detected 2499.998 MHz processor
+Mar 10 17:26:42 frontend-rails kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=9999992)
+Mar 10 17:26:42 frontend-rails kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Mar 10 17:26:42 frontend-rails kernel: [    0.008038] ACPI: Core revision 20140424
+Mar 10 17:26:42 frontend-rails kernel: [    0.009822] ACPI: All ACPI Tables successfully acquired
+Mar 10 17:26:42 frontend-rails kernel: [    0.010712] Security Framework initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.012049] AppArmor: AppArmor initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.012640] Yama: becoming mindful.
+Mar 10 17:26:42 frontend-rails kernel: [    0.013647] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.023848] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.029103] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.030144] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.031824] Initializing cgroup subsys memory
+Mar 10 17:26:42 frontend-rails kernel: [    0.032032] Initializing cgroup subsys devices
+Mar 10 17:26:42 frontend-rails kernel: [    0.032674] Initializing cgroup subsys freezer
+Mar 10 17:26:42 frontend-rails kernel: [    0.033313] Initializing cgroup subsys net_cls
+Mar 10 17:26:42 frontend-rails kernel: [    0.033947] Initializing cgroup subsys blkio
+Mar 10 17:26:42 frontend-rails kernel: [    0.034573] Initializing cgroup subsys perf_event
+Mar 10 17:26:42 frontend-rails kernel: [    0.035395] Initializing cgroup subsys net_prio
+Mar 10 17:26:42 frontend-rails kernel: [    0.036045] Initializing cgroup subsys hugetlb
+Mar 10 17:26:42 frontend-rails kernel: [    0.036756] Disabled fast string operations
+Mar 10 17:26:42 frontend-rails kernel: [    0.037393] CPU: Physical Processor ID: 0
+Mar 10 17:26:42 frontend-rails kernel: [    0.037974] CPU: Processor Core ID: 0
+Mar 10 17:26:42 frontend-rails kernel: [    0.039282] mce: CPU supports 32 MCE banks
+Mar 10 17:26:42 frontend-rails kernel: [    0.040088] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Mar 10 17:26:42 frontend-rails kernel: [    0.040088] Last level dTLB entries: 4KB 512, 2MB 0, 4MB 0, 1GB 4
+Mar 10 17:26:42 frontend-rails kernel: [    0.040088] tlb_flushall_shift: 6
+Mar 10 17:26:42 frontend-rails kernel: [    0.042408] Freeing SMP alternatives memory: 32K (ffffffff81e6f000 - ffffffff81e77000)
+Mar 10 17:26:42 frontend-rails kernel: [    0.047339] ftrace: allocating 29221 entries in 115 pages
+Mar 10 17:26:42 frontend-rails kernel: [    0.056363] Enabling x2apic
+Mar 10 17:26:42 frontend-rails kernel: [    0.056794] Enabled x2apic
+Mar 10 17:26:42 frontend-rails kernel: [    0.057334] Switched APIC routing to physical x2apic.
+Mar 10 17:26:42 frontend-rails kernel: [    0.060368] ..TIMER: vector=0x30 apic1=0 pin1=0 apic2=-1 pin2=-1
+Mar 10 17:26:42 frontend-rails kernel: [    0.061224] smpboot: CPU0: Intel(R) Xeon(R) CPU @ 2.50GHz (fam: 06, model: 3e, stepping: 04)
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] Performance Events: unsupported p6 CPU model 62 no PMU driver, software events only.
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] x86: Booting SMP configuration:
+Mar 10 17:26:42 frontend-rails kernel: [    0.064017] .... node  #0, CPUs:      #1
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] kvm-clock: cpu 1, msr 2:1fff5041, secondary cpu clock
+Mar 10 17:26:42 frontend-rails kernel: [    0.076041] NMI watchdog: disabled (cpu0): hardware events not enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.064000] Disabled fast string operations
+Mar 10 17:26:42 frontend-rails kernel: [    0.080032] x86: Booted up 1 node, 2 CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    0.080732] smpboot: Total of 2 processors activated (9999.99 BogoMIPS)
+Mar 10 17:26:42 frontend-rails kernel: [    0.084050] devtmpfs: initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.085682] evm: security.selinux
+Mar 10 17:26:42 frontend-rails kernel: [    0.086179] evm: security.SMACK64
+Mar 10 17:26:42 frontend-rails kernel: [    0.086685] evm: security.SMACK64EXEC
+Mar 10 17:26:42 frontend-rails kernel: [    0.087236] evm: security.SMACK64TRANSMUTE
+Mar 10 17:26:42 frontend-rails kernel: [    0.087816] evm: security.SMACK64MMAP
+Mar 10 17:26:42 frontend-rails kernel: [    0.088002] evm: security.ima
+Mar 10 17:26:42 frontend-rails kernel: [    0.088442] evm: security.capability
+Mar 10 17:26:42 frontend-rails kernel: [    0.089029] pinctrl core: initialized pinctrl subsystem
+Mar 10 17:26:42 frontend-rails kernel: [    0.089996] regulator-dummy: no parameters
+Mar 10 17:26:42 frontend-rails kernel: [    0.092114] RTC time: 17:26:25, date: 03/10/15
+Mar 10 17:26:42 frontend-rails kernel: [    0.092845] NET: Registered protocol family 16
+Mar 10 17:26:42 frontend-rails kernel: [    0.093670] cpuidle: using governor ladder
+Mar 10 17:26:42 frontend-rails kernel: [    0.094323] cpuidle: using governor menu
+Mar 10 17:26:42 frontend-rails kernel: [    0.094995] ACPI: bus type PCI registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.095581] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 10 17:26:42 frontend-rails kernel: [    0.096212] PCI: Using configuration type 1 for base access
+Mar 10 17:26:42 frontend-rails kernel: [    0.104195] ACPI: Added _OSI(Module Device)
+Mar 10 17:26:42 frontend-rails kernel: [    0.104898] ACPI: Added _OSI(Processor Device)
+Mar 10 17:26:42 frontend-rails kernel: [    0.105659] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 10 17:26:42 frontend-rails kernel: [    0.106392] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 10 17:26:42 frontend-rails kernel: [    0.109541] ACPI: Interpreter enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.110088] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Mar 10 17:26:42 frontend-rails kernel: [    0.111448] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Mar 10 17:26:42 frontend-rails kernel: [    0.112972] ACPI: (supports S0 S3 S4 S5)
+Mar 10 17:26:42 frontend-rails kernel: [    0.113630] ACPI: Using IOAPIC for interrupt routing
+Mar 10 17:26:42 frontend-rails kernel: [    0.114405] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 10 17:26:42 frontend-rails kernel: [    0.118220] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 10 17:26:42 frontend-rails kernel: [    0.119109] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 10 17:26:42 frontend-rails kernel: [    0.120008] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar 10 17:26:42 frontend-rails kernel: [    0.121038] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 10 17:26:42 frontend-rails kernel: [    0.123372] PCI host bridge to bus 0000:00
+Mar 10 17:26:42 frontend-rails kernel: [    0.124005] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.124981] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Mar 10 17:26:42 frontend-rails kernel: [    0.125888] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.126900] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.128004] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.129031] pci 0000:00:01.0: [8086:7110] type 00 class 0x060100
+Mar 10 17:26:42 frontend-rails kernel: [    0.144285] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Mar 10 17:26:42 frontend-rails kernel: [    0.160074] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Mar 10 17:26:42 frontend-rails kernel: [    0.161566] pci 0000:00:03.0: [1af4:1004] type 00 class 0x000000
+Mar 10 17:26:42 frontend-rails kernel: [    0.166081] pci 0000:00:03.0: reg 0x10: [io  0xc000-0xc03f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.170097] pci 0000:00:03.0: reg 0x14: [mem 0xfebfe000-0xfebfe07f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.182611] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Mar 10 17:26:42 frontend-rails kernel: [    0.186081] pci 0000:00:04.0: reg 0x10: [io  0xc040-0xc07f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.190145] pci 0000:00:04.0: reg 0x14: [mem 0xfebff000-0xfebff07f]
+Mar 10 17:26:42 frontend-rails kernel: [    0.203230] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.204417] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.205585] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.206726] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Mar 10 17:26:42 frontend-rails kernel: [    0.208322] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Mar 10 17:26:42 frontend-rails kernel: [    0.209623] ACPI: Enabled 16 GPEs in block 00 to 0F
+Mar 10 17:26:42 frontend-rails kernel: [    0.210503] vgaarb: loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.210503] SCSI subsystem initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.212048] libata version 3.00 loaded.
+Mar 10 17:26:42 frontend-rails kernel: [    0.212077] ACPI: bus type USB registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.212736] usbcore: registered new interface driver usbfs
+Mar 10 17:26:42 frontend-rails kernel: [    0.213569] usbcore: registered new interface driver hub
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] usbcore: registered new device driver usb
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] PCI: Using ACPI for IRQ routing
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] PCI: pci_cache_line_size set to 64 bytes
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] e820: reserve RAM buffer [mem 0xbfffe000-0xbfffffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] NetLabel: Initializing
+Mar 10 17:26:42 frontend-rails kernel: [    0.214338] NetLabel:  domain hash size = 128
+Mar 10 17:26:42 frontend-rails kernel: [    0.216003] NetLabel:  protocols = UNLABELED CIPSOv4
+Mar 10 17:26:42 frontend-rails kernel: [    0.216764] NetLabel:  unlabeled traffic allowed by default
+Mar 10 17:26:42 frontend-rails kernel: [    0.217632] Switched to clocksource kvm-clock
+Mar 10 17:26:42 frontend-rails kernel: [    0.228156] AppArmor: AppArmor Filesystem Enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.228956] pnp: PnP ACPI init
+Mar 10 17:26:42 frontend-rails kernel: [    0.229479] ACPI: bus type PNP registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.230427] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 10 17:26:42 frontend-rails kernel: [    0.230630] pnp 00:01: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 10 17:26:42 frontend-rails kernel: [    0.230735] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 10 17:26:42 frontend-rails kernel: [    0.230929] pnp: PnP ACPI: found 3 devices
+Mar 10 17:26:42 frontend-rails kernel: [    0.231594] ACPI: bus type PNP unregistered
+Mar 10 17:26:42 frontend-rails kernel: [    0.242154] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242156] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242157] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242159] pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfebfffff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.242205] NET: Registered protocol family 2
+Mar 10 17:26:42 frontend-rails kernel: [    0.243156] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.244818] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.246853] TCP: Hash tables configured (established 65536 bind 65536)
+Mar 10 17:26:42 frontend-rails kernel: [    0.247977] TCP: reno registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.248468] UDP hash table entries: 4096 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.249654] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.250828] NET: Registered protocol family 1
+Mar 10 17:26:42 frontend-rails kernel: [    0.251575] PCI: CLS 0 bytes, default 64
+Mar 10 17:26:42 frontend-rails kernel: [    0.251652] Trying to unpack rootfs image as initramfs...
+Mar 10 17:26:42 frontend-rails kernel: [    0.791402] Freeing initrd memory: 5324K (ffff88003758a000 - ffff880037abd000)
+Mar 10 17:26:42 frontend-rails kernel: [    0.792938] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Mar 10 17:26:42 frontend-rails kernel: [    0.793875] software IO TLB [mem 0xbbffe000-0xbfffe000] (64MB) mapped at [ffff8800bbffe000-ffff8800bfffdfff]
+Mar 10 17:26:42 frontend-rails kernel: [    0.795561] RAPL PMU detected, hw unit 2^-0 Joules, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+Mar 10 17:26:42 frontend-rails kernel: [    0.797241] microcode: CPU0 sig=0x306e4, pf=0x1, revision=0x1
+Mar 10 17:26:42 frontend-rails kernel: [    0.798308] microcode: CPU1 sig=0x306e4, pf=0x1, revision=0x1
+Mar 10 17:26:42 frontend-rails kernel: [    0.799280] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar 10 17:26:42 frontend-rails kernel: [    0.800636] Scanning for low memory corruption every 60 seconds
+Mar 10 17:26:42 frontend-rails kernel: [    0.801946] futex hash table entries: 512 (order: 3, 32768 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.802876] Initialise system trusted keyring
+Mar 10 17:26:42 frontend-rails kernel: [    0.803575] audit: initializing netlink subsys (disabled)
+Mar 10 17:26:42 frontend-rails kernel: [    0.804445] audit: type=2000 audit(1426008385.705:1): initialized
+Mar 10 17:26:42 frontend-rails kernel: [    0.805829] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar 10 17:26:42 frontend-rails kernel: [    0.808591] zpool: loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.809026] zbud: loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.809639] VFS: Disk quotas dquot_6.5.2
+Mar 10 17:26:42 frontend-rails kernel: [    0.810315] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 10 17:26:42 frontend-rails kernel: [    0.811880] fuse init (API version 7.23)
+Mar 10 17:26:42 frontend-rails kernel: [    0.812674] msgmni has been set to 14957
+Mar 10 17:26:42 frontend-rails kernel: [    0.813375] Key type big_key registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.815361] Key type asymmetric registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.815965] Asymmetric key parser 'x509' registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.816761] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar 10 17:26:42 frontend-rails kernel: [    0.817968] io scheduler noop registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.818550] io scheduler deadline registered (default)
+Mar 10 17:26:42 frontend-rails kernel: [    0.819367] io scheduler cfq registered
+Mar 10 17:26:42 frontend-rails kernel: [    0.820087] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar 10 17:26:42 frontend-rails kernel: [    0.820943] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar 10 17:26:42 frontend-rails kernel: [    0.821934] intel_idle: does not run on family 6 model 62
+Mar 10 17:26:42 frontend-rails kernel: [    0.822012] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 10 17:26:42 frontend-rails kernel: [    0.823095] ACPI: Power Button [PWRF]
+Mar 10 17:26:42 frontend-rails kernel: [    0.823751] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar 10 17:26:42 frontend-rails kernel: [    0.825012] ACPI: Sleep Button [SLPF]
+Mar 10 17:26:42 frontend-rails kernel: [    0.825801] GHES: HEST is not enabled!
+Mar 10 17:26:42 frontend-rails kernel: [    0.828331] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Mar 10 17:26:42 frontend-rails kernel: [    0.832917] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 10
+Mar 10 17:26:42 frontend-rails kernel: [    0.837452] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 10 17:26:42 frontend-rails kernel: [    0.860213] 00:01: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Mar 10 17:26:42 frontend-rails kernel: [    0.883119] 00:02: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+Mar 10 17:26:42 frontend-rails kernel: [    0.887332] Linux agpgart interface v0.103
+Mar 10 17:26:42 frontend-rails kernel: [    0.890061] brd: module loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.891549] loop: module loaded
+Mar 10 17:26:42 frontend-rails kernel: [    0.892338] libphy: Fixed MDIO Bus: probed
+Mar 10 17:26:42 frontend-rails kernel: [    0.892981] tun: Universal TUN/TAP device driver, 1.6
+Mar 10 17:26:42 frontend-rails kernel: [    0.893714] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Mar 10 17:26:42 frontend-rails kernel: [    1.033199] virtio-pci 0000:00:04.0: irq 40 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.054170] virtio-pci 0000:00:04.0: irq 41 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.077672] virtio-pci 0000:00:04.0: irq 42 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.091669] virtio-pci 0000:00:04.0: irq 43 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.109672] virtio-pci 0000:00:04.0: irq 44 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    1.124882] PPP generic driver version 2.4.2
+Mar 10 17:26:42 frontend-rails kernel: [    1.125654] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.126658] ehci-pci: EHCI PCI platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.127328] ehci-platform: EHCI generic platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.128124] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.129175] ohci-pci: OHCI PCI platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.129852] ohci-platform: OHCI generic platform driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.130684] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 10 17:26:42 frontend-rails kernel: [    1.131722] i8042: PNP: No PS/2 controller found. Probing ports directly.
+Mar 10 17:26:42 frontend-rails kernel: [    2.261965] i8042: No controller found
+Mar 10 17:26:42 frontend-rails kernel: [    2.262837] mousedev: PS/2 mouse device common for all mice
+Mar 10 17:26:42 frontend-rails kernel: [    2.264138] rtc_cmos 00:00: RTC can wake from S4
+Mar 10 17:26:42 frontend-rails kernel: [    2.265465] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Mar 10 17:26:42 frontend-rails kernel: [    2.266491] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Mar 10 17:26:42 frontend-rails kernel: [    2.267499] device-mapper: uevent: version 1.0.3
+Mar 10 17:26:42 frontend-rails kernel: [    2.268377] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Mar 10 17:26:42 frontend-rails kernel: [    2.269783] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 10 17:26:42 frontend-rails kernel: [    2.270805] TCP: cubic registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.271488] NET: Registered protocol family 10
+Mar 10 17:26:42 frontend-rails kernel: [    2.272629] NET: Registered protocol family 17
+Mar 10 17:26:42 frontend-rails kernel: [    2.273404] Key type dns_resolver registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.274705] Loading compiled-in X.509 certificates
+Mar 10 17:26:42 frontend-rails kernel: [    2.276213] Loaded X.509 cert 'Magrathea: Glacier signing key: 8bdbdece3102f59c3dcf64c3f2770ec8628cbf6e'
+Mar 10 17:26:42 frontend-rails kernel: [    2.277741] registered taskstats version 1
+Mar 10 17:26:42 frontend-rails kernel: [    2.280747] Key type trusted registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.285189] Key type encrypted registered
+Mar 10 17:26:42 frontend-rails kernel: [    2.285849] AppArmor: AppArmor sha1 policy hashing enabled
+Mar 10 17:26:42 frontend-rails kernel: [    2.286661] ima: No TPM chip found, activating TPM-bypass!
+Mar 10 17:26:42 frontend-rails kernel: [    2.287503] evm: HMAC attrs: 0x1
+Mar 10 17:26:42 frontend-rails kernel: [    2.288333]   Magic number: 7:908:440
+Mar 10 17:26:42 frontend-rails kernel: [    2.288918] clockevents broadcast: hash matches
+Mar 10 17:26:42 frontend-rails kernel: [    2.289778] rtc_cmos 00:00: setting system clock to 2015-03-10 17:26:27 UTC (1426008387)
+Mar 10 17:26:42 frontend-rails kernel: [    2.291367] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Mar 10 17:26:42 frontend-rails kernel: [    2.292349] EDD information not available.
+Mar 10 17:26:42 frontend-rails kernel: [    2.293079] PM: Hibernation image not present or could not be loaded.
+Mar 10 17:26:42 frontend-rails kernel: [    2.294403] Freeing unused kernel memory: 1356K (ffffffff81d1c000 - ffffffff81e6f000)
+Mar 10 17:26:42 frontend-rails kernel: [    2.296115] Write protecting the kernel read-only data: 12288k
+Mar 10 17:26:42 frontend-rails kernel: [    2.299964] Freeing unused kernel memory: 564K (ffff880001773000 - ffff880001800000)
+Mar 10 17:26:42 frontend-rails kernel: [    2.302850] Freeing unused kernel memory: 500K (ffff880001b83000 - ffff880001c00000)
+Mar 10 17:26:42 frontend-rails kernel: [    2.319561] systemd-udevd[101]: starting version 204
+Mar 10 17:26:42 frontend-rails kernel: [    2.375177] virtio-pci 0000:00:03.0: irq 45 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.391193] virtio-pci 0000:00:03.0: irq 46 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.405189] virtio-pci 0000:00:03.0: irq 47 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.424194] virtio-pci 0000:00:03.0: irq 48 for MSI/MSI-X
+Mar 10 17:26:42 frontend-rails kernel: [    2.434852] scsi0 : Virtio SCSI HBA
+Mar 10 17:26:42 frontend-rails kernel: [    2.570281] AVX version of gcm_enc/dec engaged.
+Mar 10 17:26:42 frontend-rails kernel: [    2.571576] scsi 0:0:1:0: Direct-Access     Google   PersistentDisk   1    PQ: 0 ANSI: 6
+Mar 10 17:26:42 frontend-rails kernel: [    2.593594] sd 0:0:1:0: Attached scsi generic sg0 type 0
+Mar 10 17:26:42 frontend-rails kernel: [    2.595105] sd 0:0:1:0: [sda] 20971520 512-byte logical blocks: (10.7 GB/10.0 GiB)
+Mar 10 17:26:42 frontend-rails kernel: [    2.596894] sd 0:0:1:0: [sda] 4096-byte physical blocks
+Mar 10 17:26:42 frontend-rails kernel: [    2.598445] sd 0:0:1:0: [sda] Write Protect is off
+Mar 10 17:26:42 frontend-rails kernel: [    2.599469] sd 0:0:1:0: [sda] Mode Sense: 1f 00 00 08
+Mar 10 17:26:42 frontend-rails kernel: [    2.599554] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar 10 17:26:42 frontend-rails kernel: [    2.615559]  sda: sda1
+Mar 10 17:26:42 frontend-rails kernel: [    2.617153] sd 0:0:1:0: [sda] Attached SCSI disk
+Mar 10 17:26:42 frontend-rails kernel: [    5.376124] floppy0: no floppy controllers found
+Mar 10 17:26:42 frontend-rails kernel: [    6.472891] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Mar 10 17:26:42 frontend-rails kernel: [    6.474431] EXT4-fs (sda1): write access will be enabled during recovery
+Mar 10 17:26:42 frontend-rails kernel: [    6.653314] EXT4-fs (sda1): orphan cleanup on readonly fs
+Mar 10 17:26:42 frontend-rails kernel: [    7.670371] EXT4-fs (sda1): 31 orphan inodes deleted
+Mar 10 17:26:42 frontend-rails kernel: [    7.675769] EXT4-fs (sda1): recovery complete
+Mar 10 17:26:42 frontend-rails kernel: [    7.700592] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 10 17:26:42 frontend-rails kernel: [    8.446042] random: nonblocking pool is initialized
+Mar 10 17:26:42 frontend-rails kernel: [    9.410755] EXT4-fs (sda1): re-mounted. Opts: (null)
+Mar 10 17:26:42 frontend-rails kernel: [   13.816126] systemd-udevd[422]: starting version 204
+Mar 10 17:26:42 frontend-rails kernel: [   14.240638] device-mapper: multipath: version 1.7.0 loaded
+Mar 10 17:26:42 frontend-rails kernel: [   14.353957] ppdev: user-space parallel port driver
+Mar 10 17:26:42 frontend-rails kernel: [   14.497025] audit: type=1400 audit(1426008399.704:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497033] audit: type=1400 audit(1426008399.704:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497037] audit: type=1400 audit(1426008399.704:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497047] audit: type=1400 audit(1426008399.704:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497057] audit: type=1400 audit(1426008399.704:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497063] audit: type=1400 audit(1426008399.704:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497484] audit: type=1400 audit(1426008399.704:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497491] audit: type=1400 audit(1426008399.704:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=485 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497519] audit: type=1400 audit(1426008399.704:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   14.497524] audit: type=1400 audit(1426008399.704:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=483 comm="apparmor_parser"
+Mar 10 17:26:42 frontend-rails kernel: [   16.676603] init: failsafe main process (762) killed by TERM signal
+Mar 10 17:26:42 frontend-rails rsyslogd-2039: Could no open output pipe '/dev/xconsole': No such file or directory [try http://www.rsyslog.com/e/2039 ]
+Mar 10 17:26:42 frontend-rails kernel: [   17.232104] floppy0: no floppy controllers found
+Mar 10 17:26:42 frontend-rails kernel: [   17.232150] work still pending
+Mar 10 17:26:42 frontend-rails pollinate[885]: system was previously seeded at [2015-03-02 20:09:24.009653000 +0000]
+Mar 10 17:26:42 frontend-rails pollinate[887]: To re-seed this system again, use the -r|--reseed option
+Mar 10 17:26:43 frontend-rails pollinate[995]: system was previously seeded at [2015-03-02 20:09:24.009653000 +0000]
+Mar 10 17:26:43 frontend-rails pollinate[997]: To re-seed this system again, use the -r|--reseed option
+Mar 10 17:26:43 frontend-rails acpid: starting up with netlink and the input layer
+Mar 10 17:26:43 frontend-rails cron[982]: (CRON) INFO (pidfile fd = 3)
+Mar 10 17:26:43 frontend-rails acpid: 1 rule loaded
+Mar 10 17:26:43 frontend-rails acpid: waiting for events: event logging is off
+Mar 10 17:26:43 frontend-rails cron[1030]: (CRON) STARTUP (fork ok)
+Mar 10 17:26:43 frontend-rails cron[1030]: (CRON) INFO (Running @reboot jobs)
+Mar 10 17:26:45 frontend-rails kernel: [   20.277443] ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 10 17:26:45 frontend-rails kernel: [   20.314071] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Mar 10 17:26:45 frontend-rails ntpd[1232]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 10 17:26:45 frontend-rails ntpd[1236]: proto: precision = 0.123 usec
+Mar 10 17:26:45 frontend-rails ntpd[1236]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 10 17:26:45 frontend-rails ntpd[1236]: unable to bind to wildcard address 0.0.0.0 - another process may be running - EXITING
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Running virtionet-irq-affinity
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Set channels for eth0 to 2
+Mar 10 17:26:46 frontend-rails kernel: [   21.068641] init: plymouth-upstart-bridge main process ended, respawning
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/41/smp_affinity to 1 for device virtio1
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/42/smp_affinity to 1 for device virtio1
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/43/smp_affinity to 2 for device virtio1
+Mar 10 17:26:46 frontend-rails virtionet-irq-affinity: Setting /proc/irq/44/smp_affinity to 2 for device virtio1
+Mar 10 17:26:46 frontend-rails google-address-manager: INFO Starting GCE address manager
+Mar 10 17:26:46 frontend-rails google: onboot initializing
+Mar 10 17:26:46 frontend-rails google: Running Boto setup script at /usr/share/google/boto/boot_setup.py
+Mar 10 17:26:46 frontend-rails google: SSH public key fingerprints
+Mar 10 17:26:46 frontend-rails google: RSA public key
+Mar 10 17:26:46 frontend-rails google: DSA public key
+Mar 10 17:26:46 frontend-rails google: ECDSA public key
+Mar 10 17:26:46 frontend-rails google: Running google_run_startup_scripts.conf
+Mar 10 17:26:46 frontend-rails google: {"attributes":{"sshKeys":"deploy:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeMxyz48kzmcms80ODv2N3mhbxxTkwukOOcfKAk0kGBfB0JpSREpim590+wHquUOznrCDHOZ+99opeWN9Jd07SQXDpdZZvgo4LgF/XaGJwPXnRZ6S6IfcAI4BJH8iPkB9Z1UcczmcjdEaL+EOByshRhiwbCWX0FWQTSXmqJNCN3Ec2eHJTL/p4gJjZkXSPuCRJS9uDptMU1MtN+GDsI8opXPFD85v/AGHjMf+KkC09w2qTPSi8Y6Ye6/7QgATwxAgdTMAcHhOxsmFLAEEwhaoKaH/4R+hu6zYdeYNLrcdio6FMiK4lOGVti+AKggaN+rcrQDcX5fLUs3NVK1p/My1H deploy\najahammerly:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrfl+9uEWWej+lmQk3aRdFH9M7zs4PHuVe1/6C8UWCFVV2sRqzLuKiuh/bpoGpwuSfK6Epo7Ojco8TjtSqkrYOFxKsCk0a6Umfv3j4JGhEzFiX2o3BTSLF/RzkGFRCAbo9LHq+wCX84SHr6+BMMRG2eWIbvFrBclFXtVL8fOd3Ofldm1UAbRDnLB7iXTWBwZdoVdEduOScIH+Ke/DXkia2pZ4Vj81cbhGUo3hXu/RXDXibYB+TapOLSU0/k68drZKvb6jlUXJJPvxKuwCf6lLfzORgtqHFwluMvpANYreBXGdwAi/mwO+sNFHH6Bb5KQcb3vfuMnP2fSuQwfjtKLsv ajahammerly@google.com\naja.hammerly:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx7TKF0i49YqMZ4Rsb038PnxMuzlVo/po3IgnROyqkJ+macxkPfywvmBZ3qKdP10qKhWR6/Eet3zlYOvrIGudL2aaBSHsOKDPv168yQ6CKVAR9G74S3qKPl2B61a8FPnzRpCo
+Mar 10 17:26:46 frontend-rails google: tuqpgNqGDspZrmxlxtshAEz5dyN1EXbJj7RVOVciIx8KEMDsbKrE6duUG4J4lJ5L5F05Xgvz6Fj8exj9u3qHUfQHvVXPl5quI37sjCFUBKB+BgBjlXMvha7L0gtbhHdhb91t1FjogJd4cPFKFMdEutkJ4b2Djd/OrmNVAL1qRS9aVOzLy2LEpTCvNEofqAiWVcoYHZpocyWIktsQR aja.hammerly@gmail.com"},"description":"","disks":[{"deviceName":"frontend-rails","index":0,"mode":"READ_WRITE","type":"PERSISTENT"}],"hostname":"frontend-rails.c.angular-concord-861.internal","id":17643872519476391867,"image":"","licenses":[{"id":"1000010"}],"machineType":"projects/909351439241/machineTypes/n1-standard-2","maintenanceEvent":"NONE","networkInterfaces":[{"accessConfigs":[{"externalIp":"104.154.79.107","type":"ONE_TO_ONE_NAT"}],"forwardedIps":[],"ip":"10.240.16.55","network":"projects/909351439241/networks/default"}],"scheduling":{"automaticRestart":"TRUE","onHostMaintenance":"MIGRATE"},"serviceAccounts":{"909351439241-compute@developer.gserviceaccount.com":{"aliases":["default"],"email":"909351439241-compute@developer.gserviceaccount.com","scopes":["https://www.googleapis.com/auth/devst
+Mar 10 17:26:46 frontend-rails google: orage.read_only","https://www.googleapis.com/auth/logging.write"]},"default":{"aliases":["default"],"email":"909351439241-compute@developer.gserviceaccount.com","scopes":["https://www.googleapis.com/auth/devstorage.read_only","https://www.googleapis.com/auth/logging.write"]}},"tags":["http-server","https-server"],"zone":"projects/909351439241/zones/us-central1-f"}
+Mar 10 17:26:46 frontend-rails google: No startup script found in metadata.
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1433]: Upgrading MySQL tables if necessary.
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1436]: This installation of MySQL is already upgraded to 5.5.41, use --force if you still need to run mysql_upgrade
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1448]: Checking for insecure root accounts.
+Mar 10 17:26:47 frontend-rails /etc/mysql/debian-start[1453]: Triggering myisam-recover for all MyISAM tables
+Mar 10 17:26:48 frontend-rails ntpdate[712]: adjust time server 169.254.169.254 offset -0.055242 sec
+Mar 10 17:26:48 frontend-rails ntpd[1548]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 10 17:26:48 frontend-rails ntpd[1549]: proto: precision = 0.172 usec
+Mar 10 17:26:48 frontend-rails ntpd[1549]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listen normally on 3 eth0 10.240.16.55 UDP 123
+Mar 10 17:26:48 frontend-rails ntpd[1549]: peers refreshed
+Mar 10 17:26:48 frontend-rails ntpd[1549]: Listening on routing socket on fd #20 for interface updates
+Mar 10 17:26:48 frontend-rails ntpd[1549]: format error frequency file /var/lib/ntp/ntp.drift
+Mar 10 17:26:57 frontend-rails ntpd[1549]: ntpd exiting on signal 15
+Mar 10 17:27:05 frontend-rails ntpdate[1580]: adjust time server 169.254.169.254 offset -0.050444 sec
+Mar 10 17:27:05 frontend-rails ntpd[1611]: ntpd 4.2.6p5@1.2349-o Fri Feb  6 15:24:25 UTC 2015 (1)
+Mar 10 17:27:05 frontend-rails ntpd[1612]: proto: precision = 0.133 usec
+Mar 10 17:27:05 frontend-rails ntpd[1612]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listen normally on 3 eth0 10.240.16.55 UDP 123
+Mar 10 17:27:05 frontend-rails ntpd[1612]: peers refreshed
+Mar 10 17:27:05 frontend-rails ntpd[1612]: Listening on routing socket on fd #20 for interface updates
+Mar 10 17:27:05 frontend-rails ntpd[1612]: format error frequency file /var/lib/ntp/ntp.drift
+Mar 10 18:17:01 frontend-rails CRON[4527]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 19:17:01 frontend-rails CRON[6525]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 20:17:01 frontend-rails CRON[8488]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 21:17:01 frontend-rails CRON[10462]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 22:17:01 frontend-rails CRON[12424]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 10 23:17:01 frontend-rails CRON[14387]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 00:17:01 frontend-rails CRON[16348]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 01:17:01 frontend-rails CRON[18304]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 02:17:01 frontend-rails CRON[20270]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 03:17:01 frontend-rails CRON[22428]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 04:17:01 frontend-rails CRON[24607]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 05:17:01 frontend-rails CRON[26808]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 06:17:01 frontend-rails CRON[28774]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 06:25:01 frontend-rails CRON[29037]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 11 07:17:01 frontend-rails CRON[30942]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 08:17:01 frontend-rails CRON[435]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 09:17:01 frontend-rails CRON[2460]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 10:17:01 frontend-rails CRON[4428]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 11:17:01 frontend-rails CRON[6385]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 12:17:01 frontend-rails CRON[8348]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 13:17:01 frontend-rails CRON[10318]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 14:17:01 frontend-rails CRON[12276]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 15:17:01 frontend-rails CRON[14231]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 16:17:01 frontend-rails CRON[16202]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 17:17:01 frontend-rails CRON[18168]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 18:17:01 frontend-rails CRON[20128]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 19:17:01 frontend-rails CRON[22083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 20:17:01 frontend-rails CRON[24076]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 21:17:01 frontend-rails CRON[26088]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 22:17:01 frontend-rails CRON[28047]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 11 23:17:01 frontend-rails CRON[30001]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 00:17:01 frontend-rails CRON[31965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 01:17:01 frontend-rails CRON[1524]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 02:17:01 frontend-rails CRON[3484]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 03:17:01 frontend-rails CRON[5440]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 04:17:01 frontend-rails CRON[7396]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 05:17:01 frontend-rails CRON[9373]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 06:17:01 frontend-rails CRON[11335]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 12 06:25:01 frontend-rails CRON[11597]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 12 07:07:16 frontend-rails kernel: [135651.082359] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.082454] libcrc32c: module verification failed: signature and/or  required key missing - tainting kernel
+Mar 12 07:07:16 frontend-rails kernel: [135651.085040] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.097543] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+Mar 12 07:07:16 frontend-rails kernel: [135651.110407] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.124496] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.127950] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.196236] raid6: sse2x1    6603 MB/s
+Mar 12 07:07:16 frontend-rails kernel: [135651.264021] raid6: sse2x2    8575 MB/s
+Mar 12 07:07:16 frontend-rails kernel: [135651.332025] raid6: sse2x4    9772 MB/s
+Mar 12 07:07:16 frontend-rails kernel: [135651.332029] raid6: using algorithm sse2x4 (9772 MB/s)
+Mar 12 07:07:16 frontend-rails kernel: [135651.332031] raid6: using ssse3x2 recovery algorithm
+Mar 12 07:07:16 frontend-rails kernel: [135651.332321] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.332590] xor: automatically using best checksumming function:
+Mar 12 07:07:16 frontend-rails kernel: [135651.372020]    avx       : 20482.000 MB/sec
+Mar 12 07:07:16 frontend-rails kernel: [135651.372930] Request for unknown module key 'Magrathea: Glacier signing key: 6a63e8ef0c63abdb145fd17caaa97b8c69734584' err -11
+Mar 12 07:07:16 frontend-rails kernel: [135651.384675] Btrfs loaded
+Mar 12 07:07:17 frontend-rails rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="809" x-info="http://www.rsyslog.com"] rsyslogd was HUPed

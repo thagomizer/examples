@@ -1,0 +1,83 @@
+I, [2015-03-10T17:29:45.701998 #2119]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+E, [2015-03-10T17:29:46.276612 #2119] ERROR -- : Mysql::Error: BLOB/TEXT column 'body' used in key specification without a key length: CREATE  INDEX `index_posts_on_body`  ON `posts` (`body`) 
+I, [2015-03-10T17:32:17.305179 #2383]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+I, [2015-03-10T17:35:52.313882 #2893]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+I, [2015-03-10T17:37:12.547537 #3140]  INFO -- : Migrating to AddIndexPosts (20150309195038)
+I, [2015-03-10T17:38:05.743590 #3254]  INFO -- : Started GET "/" for 50.207.79.146 at 2015-03-10 17:38:05 +0000
+I, [2015-03-10T17:38:05.764425 #3254]  INFO -- : Processing by PostsController#index as HTML
+I, [2015-03-10T17:38:05.905780 #3254]  INFO -- :   Rendered posts/index.html.erb within layouts/application (124.4ms)
+I, [2015-03-10T17:38:05.908030 #3254]  INFO -- : Completed 200 OK in 143ms (Views: 126.7ms | ActiveRecord: 6.5ms)
+I, [2015-03-10T17:38:11.138373 #3254]  INFO -- : Started GET "/?page=600" for 50.207.79.146 at 2015-03-10 17:38:11 +0000
+I, [2015-03-10T17:38:11.140241 #3254]  INFO -- : Processing by PostsController#index as HTML
+I, [2015-03-10T17:38:11.140308 #3254]  INFO -- :   Parameters: {"page"=>"600"}
+I, [2015-03-10T17:38:11.192390 #3254]  INFO -- :   Rendered posts/index.html.erb within layouts/application (49.9ms)
+I, [2015-03-10T17:38:11.193301 #3254]  INFO -- : Completed 200 OK in 53ms (Views: 26.0ms | ActiveRecord: 25.9ms)
+I, [2015-03-10T17:38:14.512062 #3254]  INFO -- : Started GET "/?page=599" for 50.207.79.146 at 2015-03-10 17:38:14 +0000
+I, [2015-03-10T17:38:14.513307 #3254]  INFO -- : Processing by PostsController#index as HTML
+I, [2015-03-10T17:38:14.513357 #3254]  INFO -- :   Parameters: {"page"=>"599"}
+I, [2015-03-10T17:38:14.570969 #3254]  INFO -- :   Rendered posts/index.html.erb within layouts/application (56.2ms)
+I, [2015-03-10T17:38:14.571754 #3254]  INFO -- : Completed 200 OK in 58ms (Views: 31.9ms | ActiveRecord: 25.4ms)
+I, [2015-03-10T17:38:17.971621 #3254]  INFO -- : Started GET "/?page=598" for 50.207.79.146 at 2015-03-10 17:38:17 +0000
+I, [2015-03-10T17:38:17.973546 #3254]  INFO -- : Processing by PostsController#index as HTML
+I, [2015-03-10T17:38:17.973607 #3254]  INFO -- :   Parameters: {"page"=>"598"}
+I, [2015-03-10T17:38:18.084299 #3254]  INFO -- :   Rendered posts/index.html.erb within layouts/application (109.0ms)
+I, [2015-03-10T17:38:18.085296 #3254]  INFO -- : Completed 200 OK in 112ms (Views: 42.8ms | ActiveRecord: 67.6ms)
+I, [2015-03-10T22:15:33.709700 #3254]  INFO -- : Started GET "/user/soapCaller.bs" for 118.98.104.21 at 2015-03-10 22:15:33 +0000
+F, [2015-03-10T22:15:33.712625 #3254] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/user/soapCaller.bs"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2015-03-10T22:37:47.336553 #3254]  INFO -- : Started GET "/" for 182.118.53.249 at 2015-03-10 22:37:47 +0000
+I, [2015-03-10T22:37:47.340716 #3254]  INFO -- : Processing by PostsController#index as HTML
+I, [2015-03-10T22:37:47.373954 #3254]  INFO -- :   Rendered posts/index.html.erb within layouts/application (30.6ms)
+I, [2015-03-10T22:37:47.375169 #3254]  INFO -- : Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.8ms)
+I, [2015-03-10T22:45:43.188824 #3254]  INFO -- : Started GET "/" for 128.61.240.66 at 2015-03-10 22:45:43 +0000
+I, [2015-03-10T22:45:43.192759 #3254]  INFO -- : Processing by PostsController#index as */*
+I, [2015-03-10T22:45:43.245013 #3254]  INFO -- :   Rendered posts/index.html.erb within layouts/application (46.1ms)
+I, [2015-03-10T22:45:43.245932 #3254]  INFO -- : Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.7ms)
+I, [2015-03-11T03:30:17.637327 #3254]  INFO -- : Started GET "/posts/new" for 146.148.91.139 at 2015-03-11 03:30:17 +0000
+I, [2015-03-11T03:30:17.643013 #3254]  INFO -- : Processing by PostsController#new as */*
+I, [2015-03-11T03:30:17.661941 #3254]  INFO -- :   Rendered posts/_form.html.erb (7.6ms)
+I, [2015-03-11T03:30:17.662203 #3254]  INFO -- :   Rendered posts/new.html.erb within layouts/application (12.1ms)
+I, [2015-03-11T03:30:17.663401 #3254]  INFO -- : Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+I, [2015-03-11T03:30:37.836985 #3254]  INFO -- : Started GET "/posts/new" for 146.148.91.139 at 2015-03-11 03:30:37 +0000
+I, [2015-03-11T03:30:37.839288 #3254]  INFO -- : Processing by PostsController#new as */*
+I, [2015-03-11T03:30:37.843777 #3254]  INFO -- :   Rendered posts/_form.html.erb (2.3ms)
+I, [2015-03-11T03:30:37.843968 #3254]  INFO -- :   Rendered posts/new.html.erb within layouts/application (2.7ms)
+I, [2015-03-11T03:30:37.844938 #3254]  INFO -- : Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2015-03-11T03:32:21.324392 #3254]  INFO -- : Started GET "/posts/new" for 146.148.91.139 at 2015-03-11 03:32:21 +0000
+I, [2015-03-11T03:32:21.328190 #3254]  INFO -- : Processing by PostsController#new as */*
+I, [2015-03-11T03:32:21.334654 #3254]  INFO -- :   Rendered posts/_form.html.erb (3.4ms)
+I, [2015-03-11T03:32:21.334849 #3254]  INFO -- :   Rendered posts/new.html.erb within layouts/application (4.0ms)
+I, [2015-03-11T03:32:21.335806 #3254]  INFO -- : Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+I, [2015-03-11T03:37:48.679298 #3254]  INFO -- : Started POST "/posts" for 146.148.91.139 at 2015-03-11 03:37:48 +0000
+I, [2015-03-11T03:37:48.683448 #3254]  INFO -- : Processing by PostsController#create as */*
+I, [2015-03-11T03:37:48.683520 #3254]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJIKvxqutCD+es4rPjHoKecmDZ1riHM3swqIXL88S1ALuK3L+6d2L6tf99YKbfjTBsO+4Ye4bYEU6CY7FDyQBg==", "post"=>{"title"=>"rurqf3998r", "body"=>"19bk30pdrbpa5s9nzbxawln0yehqeo1ycazrrrzr0xwnc9nimn59jw5b6k5afiejs79wrydh2u09anw8bemzgyemc2vvlmial78xoc2g3utsr9wouc3l040xglcroks4mrnwbv8i7ozqnc97pjzdkj"}}
+I, [2015-03-11T03:37:48.748967 #3254]  INFO -- : Redirected to http://104.154.79.107/posts/14991
+I, [2015-03-11T03:37:48.749347 #3254]  INFO -- : Completed 302 Found in 66ms (ActiveRecord: 55.8ms)
+I, [2015-03-11T03:37:48.752573 #3254]  INFO -- : Started POST "/posts" for 146.148.91.139 at 2015-03-11 03:37:48 +0000
+I, [2015-03-11T03:37:48.754037 #3254]  INFO -- : Processing by PostsController#create as */*
+I, [2015-03-11T03:37:48.754156 #3254]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"yTHfg8rD36BGdv9zPf/iEHa3BxC46gAFhYjq+FXUA/Vnoe66Z/P+jaj7vXfCYAQgflVIPqkHQK3qnThxEiVQvA==", "post"=>{"title"=>"m09on0gytl", "body"=>"4h92bin3u46rfz4iye72jlstd1syubecapfsi9vrg742jl6yd6k89xn7fhmjd42jb79fo37bbg8ztj1zjwiym000jrj25uzozcs0rndppuf0x933qcszhkjv3m4qf6zlmkuose5k93npbww3bo6ue3"}}
+I, [2015-03-11T03:37:48.762819 #3254]  INFO -- : Redirected to http://104.154.79.107/posts/14992
+I, [2015-03-11T03:37:48.763061 #3254]  INFO -- : Completed 302 Found in 9ms (ActiveRecord: 5.0ms)
+I, [2015-03-11T03:40:48.964283 #3254]  INFO -- : Started POST "/posts" for 146.148.91.139 at 2015-03-11 03:40:48 +0000
+I, [2015-03-11T03:40:48.968288 #3254]  INFO -- : Processing by PostsController#create as */*
