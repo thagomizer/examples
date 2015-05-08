@@ -118,4 +118,4 @@
   boot2docker ip
   #+END_SRC
 
-  Remember the webiste is on port 3000
+  Remember the website is on port 3000
