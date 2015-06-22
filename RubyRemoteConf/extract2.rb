@@ -66,13 +66,7 @@ CSV.open(filename, "r:UTF-8", headers: true) do |input|
     output << headers
 
     input.each do |line|
-      new_line = []
-      line.each do |col_name, value|
-        new_line << Formatter.format(value, PROJECTS_COLUMNS[col_name])
-      end
-
-      output << new_line
-
+      output << line.map { |col_name, value| Formatter.format(value, PROJECTS_COLUMNS[col_name]) }
     end
   end
 end
