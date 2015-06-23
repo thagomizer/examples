@@ -113,7 +113,7 @@
   docker ports
   #+END_SRC
 
-  To get the url with bookt2dockr
+  To get the url with boot2docker
   #+BEGIN_SRC sh
   boot2docker ip
   #+END_SRC

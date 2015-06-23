@@ -25,7 +25,7 @@ class Formatter
     when /0/, /[Ff]alse/, /[Ff]/
       false
     else
-      raise?
+      raise "cannot coerce #{value} into boolean"
     end
   end
 
@@ -37,12 +37,12 @@ class Formatter
     value.to_i
   end
 
-  def self.format_float value
-    value.to_f
-  end
-
   def self.format_id value
     value.gsub(/['"\\]/, '')
+  end
+
+  def self.format_float value
+    value.to_f
   end
 
   def self.format_timestamp value
@@ -51,23 +51,27 @@ class Formatter
 end
 
 require 'csv'
-require './columns.rb'
+require_relative 'columns'
 
 filename, outfile, * = ARGV
 
 abort "Specify outfile" unless outfile
 
+
 def process filename, outfile
-CSV.open(filename, "r:UTF-8", headers: true) do |input|
-  CSV.open(outfile, "wb:UTF-8") do |output|
+  CSV.open(filename, "r:UTF-8", headers: true) do |input|
+    CSV.open(outfile, "wb:UTF-8") do |output|
 
-    output << input.shift          # read the headers and write to the outfile
+      input.shift          # read the headers
+      headers = input.headers
 
-    input.each do |line|
-      output << yield(line)
+      output << headers
+
+      input.each do |line|
+        output << yield(line)
+      end
     end
   end
-end
 end
 
 process filename, outfile do |line|
