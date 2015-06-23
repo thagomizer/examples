@@ -20,9 +20,9 @@ class Formatter
 
   def self.format_boolean value
     case value.to_s
-    when /1/, /[Tt]rue/, /[Tt]/
+    when /1/, /^t(rue)?$/i
       true
-    when /0/, /[Ff]alse/, /[Ff]/
+    when /0/, /^f(alse)?$/i
       false
     else
       raise "cannot coerce #{value} into boolean"
@@ -46,7 +46,7 @@ class Formatter
   end
 
   def self.format_timestamp value
-    DateTime.parse(value).rfc3339
+    DateTime.parse(value).iso8601
   end
 end
 
@@ -62,10 +62,7 @@ def process filename, outfile
   CSV.open(filename, "r:UTF-8", headers: true) do |input|
     CSV.open(outfile, "wb:UTF-8") do |output|
 
-      input.shift          # read the headers
-      headers = input.headers
-
-      output << headers
+      output << input.shift          # read the headers
 
       input.each do |line|
         output << yield(line)
