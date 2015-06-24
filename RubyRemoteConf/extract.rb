@@ -30,7 +30,7 @@ class Formatter
   end
 
   def self.format_string value
-    value.to_s
+    value.to_s.gsub(/\n/, '')
   end
 
   def self.format_integer value
@@ -53,16 +53,18 @@ end
 require 'csv'
 require_relative 'columns'
 
-filename, outfile, * = ARGV
+filename, outfile, table_name, * = ARGV
 
-abort "Specify outfile" unless outfile
+abort "Specify filename, outfile, and table name" unless table_name
 
+col_data = Object.const_get("#{table_name.upcase}_COLUMNS")
 
 def process filename, outfile
   CSV.open(filename, "r:UTF-8", headers: true) do |input|
     CSV.open(outfile, "wb:UTF-8") do |output|
 
-      output << input.shift          # read the headers
+      input.shift                    # read the headers
+      output << input.headers        # output the headers
 
       input.each do |line|
         output << yield(line)
@@ -73,6 +75,6 @@ end
 
 process filename, outfile do |line|
   line.map { |col_name, value|
-    Formatter.format(value, PROJECTS_COLUMNS[col_name])
+    Formatter.format(value, col_data[col_name])
   }
 end

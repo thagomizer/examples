@@ -61,3 +61,63 @@ PROJECTS_COLUMNS = {"_projectid" => :id,
                     "total_price_excluding_optional_support" => :float,
                     "total_price_including_optional_support" => :float
                    }
+
+
+RESOURCES_COLUMNS = {"_resourceid" => :id,
+                     "_projectid" => :id,
+                     "vendorid" => :id,
+                     "vendor_name" => :string,
+                     "project_resource_type" => :string,
+                     "item_name" => :string,
+                     "item_number" => :string,
+                     "item_unit_price" => :float,
+                     "item_quantity" => :integer
+                    }
+
+
+DONATIONS_COLUMNS = {"_donationid" => :id,
+                     "_projectid" => :id,
+                     "_donor_acctid" => :id,
+                     "_cartid" => :id,
+                     "donor_city" => :string,
+                     "donor_state" => :string,
+                     "donor_zip" => :string,
+                     "is_teacher_acct" => :boolean,
+                     "donation_timestamp" => :timestamp,
+                     "donation_to_project" => :float,
+                     "donation_optional_support" => :float,
+                     "donation_total" => :float,
+                     "dollar_amount" => :string,
+                     "donation_included_optional_support" => :boolean,
+                     "payment_method" => :string,
+                     "payment_included_acct_credit" => :boolean,
+                     "payment_included_campaign_gift_card" => :boolean,
+                     "payment_included_web_purchased_gift_card" => :boolean,
+                     "payment_was_promo_matched" => :boolean,
+                     "via_giving_page" => :boolean,
+                     "for_honoree" => :boolean,
+                     "donation_message" => :string}
+
+
+GIFTCARDS_COLUMNS = {"_giftcardid" => :id,
+                     "gift_code_amount" => :float,
+                     "dollar_amount" => :string,
+                     "_buyer_acctid" => :id,
+                     "buyer_city" => :string,
+                     "buyer_state" => :string,
+                     "buyer_zip" => :string,
+                     "date_purchased" => :timestamp,
+                     "_buyer_cartid" => :id,
+                     "_recipient_acctid" => :id,
+                     "recipient_city" => :string,
+                     "recipient_state" => :string,
+                     "recipient_zip" => :string,
+                     "redeemed" => :boolean,
+                     "date_redeemed" => :timestamp,
+                     "_redeemed_cartid" => :id,
+                     "payment_method" => :string,
+                     "payment_included_acct_credit" => :boolean,
+                     "payment_included_campaign_gift_card" => :boolean,
+                     "payment_included_web_purchased_gift_card" => :boolean,
+                     "payment_was_promo_matched" => :boolean
+                    }
