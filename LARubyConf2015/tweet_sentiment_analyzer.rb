@@ -11,8 +11,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'rinda/tuplespace'
+require 'rinda/rinda'
+require 'sentiments'
 
 URI = ARGV[0] || "druby://0.0.0.0:61676"
-DRb.start_service(URI, Rinda::TupleSpace.new)
-DRb.thread.join
+DRb.start_service
+ts = Rinda::TupleSpaceProxy.new(DRbObject.new(nil, URI))
+
+loop do
+  _, tweet = ts.take([:tweet, String])
+  sentiment = 0
+  SENTIMENTS.each do |s, val|
+    if tweet.include? s then
+      sentiment += val
+    end
+  end
+  ts.write([:sentiment, sentiment])
+end

@@ -11,8 +11,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'rinda/tuplespace'
+require 'rinda/rinda'
 
 URI = ARGV[0] || "druby://0.0.0.0:61676"
-DRb.start_service(URI, Rinda::TupleSpace.new)
-DRb.thread.join
+DRb.start_service
+ts = Rinda::TupleSpaceProxy.new(DRbObject.new(nil, URI))
+fname = "./happy_tweets.txt"
+
+File.open(fname, "r") do |f|
+  f.each_line do |l|
+    ts.write([:tweet, l])
+  end
+end
