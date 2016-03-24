@@ -12,9 +12,27 @@
 # limitations under the License.
 
 require 'sinatra'
+require 'haml'
+require "gcloud"
 
 set :bind, '0.0.0.0'
 
 get '/' do
   "hello world"
+end
+
+get "/upload" do
+  haml :upload
+end
+
+# Handle POST-request (Receive and save the uploaded file)
+post "/upload" do
+  gcloud = Gcloud.new "zinc-computer-124720", "service-account-key.json"
+  storage = gcloud.storage
+
+  bucket = storage.bucket "zinc-computer-124720"
+
+  bucket.create_file params['myfile'][:tempfile], params['myfile'][:filename]
+
+  return "The file was successfully uploaded!"
 end
