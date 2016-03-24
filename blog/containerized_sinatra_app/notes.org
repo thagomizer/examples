@@ -1,0 +1,55 @@
+Copyright 2016 Google
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+* Setup
+https://thesocietea.org/2015/05/building-a-simple-web-server-with-sinatra/
+** Gemfile
+gem 'sinatra'
+** App (web.rb)
+require 'sinatra'
+
+get '/' do
+  "hello world"
+end
+** bundle install
+
+* Deployment
+Roughly following these steps: https://cloud.google.com/container-engine/docs/tutorials/hello-wordpress
+Background, I've done several k8s/GKE deploys of random rails apps so this isn't new for me
+** Make a new project
+ProjectID: zinc-computer-124720
+** Enable compute, storage, and GKE APIs
+** gcloud init
+Created a custom config since I already had gcloud installed
+** set compute/zone
+gcloud config set compute/zone us-central1-b
+** create the cluster
+gcloud container clusters create sinatra \
+    --num-nodes 1 \
+    --machine-type g1-small
+Wait
+** Dockerfile
+FROM semtech/mu-sinatra-template:ruby-2.1-latest
+MAINTAINER Aja Hammerly <thagomizer@google.com>
+** Build container and push to gcr
+docker build -t thagomizer/sinatra .
+docker tag thagomizer/sinatra gcr.io/zinc-computer-124720/sinatra:v3
+gcloud docker push gcr.io/zinc-computer-124720/sinatra:v3
+!!! This failed and I had to restart dockermachine so that it could find gcr.io again. Spent about 45 minutes banging my head against this until another DA was able to help.
+
+** Lazy k8s (http://kubernetes.io/docs/hellonode/)
+kubectl run sinatra --image=gcr.io/zinc-computer-124720/sinatra:v3 --port=8080
+kubectl expose rc sinatra --type="LoadBalancer"
+
+Wait for 5 minutes and then:
+kubectl get services sinatra to get the external IP
