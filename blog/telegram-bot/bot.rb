@@ -20,29 +20,32 @@ TELEGRAM_BOT_NAME = "RedditCuteBot"
 REDDIT_CLIENT_ID  = ENV["REDDIT_CLIENT_ID"]
 REDDIT_SECRET     = ENV["REDDIT_SECRET"]
 
-SUPPORTED_REDDITS = ["aww",
-                     "babygoats",
-                     "catbellies",
-                     "catsinboxes",
-                     "cute",
-                     "daww",
-                     "ferrets",
-                     "goats",
-                     "gifsofotters",
-                     "husky",
-                     "kittens",
-                     "otters",
-                     "puppies",
-                     "raccoons",
-                     "batty",
-                     "teefies",
-                     "roombaww",
-                     "thecattrapisworking"]
+SUPPORTED_REDDITS = [
+  "aww",
+  "babygoats",
+  "batty",
+  "catbellies",
+  "catsinboxes",
+  "cute",
+  "daww",
+  "ferrets",
+  "gifsofotters",
+  "goats",
+  "husky",
+  "kittens",
+  "otters",
+  "puppies",
+  "raccoons",
+  "roombaww",
+  "seals",
+  "teefies",
+  "thecattrapisworking"
+]
 
 DOMAIN_WHITELIST = ["imgur", "instagram", "gfycat"]
 
 
-r = Redd.it(:userless, REDDIT_CLIENT_ID, REDDIT_SECRET)
+@r = Redd.it(:userless, REDDIT_CLIENT_ID, REDDIT_SECRET)
 
 def send_message(bot, message, text)
   bot.api.send_message(chat_id: message.chat.id, text: text)
@@ -52,6 +55,16 @@ def good_domain?(domain)
   DOMAIN_WHITELIST.any? { |d| domain.include?(d) }
 end
 
+def post_cutes(bot, msg, subreddit)
+  send_message(bot, msg, "Querying r/#{subreddit}")
+
+  cutes = @r.get_hot(subreddit, :limit => 3)
+  cutes.each do |cute|
+    puts cute.domain
+    next unless good_domain?(cute.domain)
+    send_message(bot, msg, cute.url)
+  end
+end
 
 Telegram::Bot::Client.run(TELEGRAM_TOKEN) do |bot|
   bot.listen do |msg|
@@ -60,14 +73,14 @@ Telegram::Bot::Client.run(TELEGRAM_TOKEN) do |bot|
       send_message(bot, msg, "Hello! To get cute type '/cute <reddit name>'")
     when '/cute'
       subreddit = SUPPORTED_REDDITS.shuffle.first
+      post_cutes(bot, msg, subreddit)
+    else
+      subreddit = msg.text[1..-1].downcase
 
-      send_message(bot, msg, "Querying r/#{subreddit}")
+      puts subreddit
 
-      cutes = r.get_hot(subreddit, :limit => 3)
-      cutes.each do |cute|
-        puts cute.domain
-        next unless good_domain?(cute.domain)
-        send_message(bot, msg, cute.url)
+      if SUPPORTED_REDDITS.include?(subreddit) then
+        post_cutes(bot, msg, subreddit)
       end
     end
   end
