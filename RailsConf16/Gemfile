@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'gcloud',  :git => "git@github.com:GoogleCloudPlatform/gcloud-ruby.git", :branch => "vision"
+

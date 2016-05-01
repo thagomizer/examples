@@ -1,0 +1,100 @@
+Copyright 2016 Google Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+
+* Configuration info
+Using gcloud gem
+
+#+BEGIN_SRC ruby :file Gemfile
+source 'https://rubygems.org'
+
+gem 'gcloud',  :git => "git@github.com:GoogleCloudPlatform/gcloud-ruby.git", :branch => "vision"
+#+END_SRC
+
+** Setup 
+*** Create a project
+*** Enable billing and Vision API
+*** Create a key file
+**** IAM 
+1. IAM & Admin from hamburger menu
+2. Service Accounts
+3. Create new service account
+4. Fill out and be sure to check furnish a new private key (JSON format)
+5. Create
+6. Copy downloaded file into your app and add to .git-ignore
+**** Old Version
+1. Permissions from hamburger menu
+2. Service Accounts
+3. Create new service account
+4. Fill out and be sure to check furnish a new private key (JSON format)
+5. Create
+6. Copy downloaded file into your app and add to .git-ignore
+*** Create translate key
+TODO
+
+** Environment variables
+
+| Variable              | Description              |
+|-----------------------+--------------------------|
+| GOOGLE_CLOUD_PROJECT  | project id               |
+| GOOGLE_CLOUD_KEY_FILE | path to key file         |
+| TRANSLATE_KEY         | key for Google translate |
+
+
+#+BEGIN_SRC sh
+export GOOGLE_CLOUD_PROJECT="postcards-from-gorby"
+export GOOGLE_CLOUD_KEY_FILE="private-key.json"
+#+END_SRC
+
+
+* Using vision
+
+#+BEGIN_SRC :file vision_example.rb
+require "gcloud/vision"
+
+v = Gcloud.vision
+i = v.image "/Users/ajahammerly/examples/RailsConf16/landmark.jpg"
+a = v.annotate i, landmarks: 10
+
+
+#+END_SRC
+
+
+
+* Using tranlate
+
+
+
+* Notes for Mike
+** i = v.image("https://storage.googleapis.com/railsconf-postcards/fremont-troll.jpg")
+That didn't work...what's up with that?
+
+bundle exec irb
+
+require "gcloud/vision"
+v = Gcloud.vision
+
+
+or 
+
+require 'gcloud'
+v = Gcloud.new.vision
+
+
+i = v.image "PATH"  # local or Google Storage path
+
+(landmarks, logos, labels, text, faces)
+
+a = v.annotate i, lables: 10
+
+a.face? 
+a.landmark?
+
+i.landmark
+
+
+ENV["GOOGLE_CLOUD_PROJECT"]
