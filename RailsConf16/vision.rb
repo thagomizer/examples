@@ -12,10 +12,56 @@
 # limitations under the License.
 
 require "gcloud/vision"
-require 'pp'
 
-v = Gcloud.vision
-i = v.image "/Users/ajahammerly/examples/RailsConf16/landmark.jpg"
-a = v.annotate i, landmarks: 10
+ENV["TRANSLATE_KEY"] = "AIzaSyAC7YsjoFHTMmsHTbEcgvPnNL7vNKYN_VA"
+ENV["GOOGLE_CLOUD_PROJECT"] = "postcards-from-gorby"
+ENV["GOOGLE_CLOUD_KEYFILE"] = "/Users/ajahammerly/examples/RailsConf16/private-key.json"
 
-puts a
+gc = Gcloud.new
+
+v = gc.vision
+i = v.image "./postcard-one.jpg"
+a = v.annotate i, landmarks: 1
+
+puts "Description:"
+puts a.landmark.description
+puts
+puts "Location:"
+puts a.landmark.locations
+
+puts
+
+
+i = v.image "./postcard-two.jpg"
+a = v.annotate i, labels: 10
+a.labels.each { |l| puts l.description }
+
+
+puts
+
+v = gc.vision
+i = v.image "./postcard-three.jpg"
+a = v.annotate i, text: 1
+
+puts "Text"
+puts a.text.text
+puts
+puts "Locale"
+puts a.text.locale
+
+puts
+
+puts "Translating"
+t = gc.translate
+text = a.text.text
+translation = t.translate text, from: a.text.locale, to: "en"
+puts translation.text
+
+
+i = v.image "./postcard-five.jpg"
+a = v.annotate i, landmarks: 1
+
+puts "Description:"
+puts a.landmark.description
+puts "Location:"
+puts a.landmark.locations

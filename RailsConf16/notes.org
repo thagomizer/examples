@@ -47,7 +47,8 @@ TODO
 
 #+BEGIN_SRC sh
 export GOOGLE_CLOUD_PROJECT="postcards-from-gorby"
-export GOOGLE_CLOUD_KEY_FILE="private-key.json"
+export GOOGLE_CLOUD_KEYFILE="/Users/ajahammerly/examples/RailsConf16/private-key.json"
+export TRANSLATE_KEY="AIzaSyAPtkblVlJFT4rA2rOLDILQ5hnpbfoSpU8"
 #+END_SRC
 
 
@@ -57,44 +58,11 @@ export GOOGLE_CLOUD_KEY_FILE="private-key.json"
 require "gcloud/vision"
 
 v = Gcloud.vision
-i = v.image "/Users/ajahammerly/examples/RailsConf16/landmark.jpg"
+i = v.image "gs://railsconf-postcards/fremont-troll.jpg"
 a = v.annotate i, landmarks: 10
-
-
 #+END_SRC
 
 
-
 * Using tranlate
-
-
-
-* Notes for Mike
-** i = v.image("https://storage.googleapis.com/railsconf-postcards/fremont-troll.jpg")
-That didn't work...what's up with that?
-
-bundle exec irb
-
-require "gcloud/vision"
-v = Gcloud.vision
-
-
-or 
-
-require 'gcloud'
-v = Gcloud.new.vision
-
-
-i = v.image "PATH"  # local or Google Storage path
-
-(landmarks, logos, labels, text, faces)
-
-a = v.annotate i, lables: 10
-
-a.face? 
-a.landmark?
-
-i.landmark
-
-
-ENV["GOOGLE_CLOUD_PROJECT"]
+t = gcloud.translate
+translation = t.translate "text", to: "en"

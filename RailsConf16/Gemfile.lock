@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:GoogleCloudPlatform/gcloud-ruby.git
-  revision: 4936744a9b58b682b8c3fac15da64daec2d60245
+  revision: d1427435617c893b04f1c121ff39828a61c8f9ef
   branch: vision
   specs:
     gcloud (0.8.0)
