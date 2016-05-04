@@ -18,7 +18,7 @@ require "gcloud"
 set :bind, '0.0.0.0'
 
 get '/' do
-  "hello world"
+  "Updated"
 end
 
 get "/upload" do

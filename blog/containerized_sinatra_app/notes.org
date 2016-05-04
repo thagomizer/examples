@@ -27,7 +27,7 @@ end
 Roughly following these steps: https://cloud.google.com/container-engine/docs/tutorials/hello-wordpress
 Background, I've done several k8s/GKE deploys of random rails apps so this isn't new for me
 ** Make a new project
-ProjectID: zinc-computer-124720
+ProjectID: sinatra-containers
 ** Enable compute, storage, and GKE APIs
 ** gcloud init
 Created a custom config since I already had gcloud installed
@@ -43,13 +43,57 @@ FROM semtech/mu-sinatra-template:ruby-2.1-latest
 MAINTAINER Aja Hammerly <thagomizer@google.com>
 ** Build container and push to gcr
 docker build -t thagomizer/sinatra .
-docker tag thagomizer/sinatra gcr.io/zinc-computer-124720/sinatra:v3
-gcloud docker push gcr.io/zinc-computer-124720/sinatra:v3
+docker tag thagomizer/sinatra gcr.io/sinatra-containers/sinatra:v1
+gcloud docker push gcr.io/sinatra-containers/sinatra:v1
 !!! This failed and I had to restart dockermachine so that it could find gcr.io again. Spent about 45 minutes banging my head against this until another DA was able to help.
 
 ** Lazy k8s (http://kubernetes.io/docs/hellonode/)
-kubectl run sinatra --image=gcr.io/zinc-computer-124720/sinatra:v3 --port=8080
-kubectl expose rc sinatra --type="LoadBalancer"
+kubectl run sinatra --image=gcr.io/sinatra-containers/sinatra:v1 --port=8080
+kubectl expose deployment sinatra --type="LoadBalancer"
 
 Wait for 5 minutes and then:
 kubectl get services sinatra to get the external IP
+
+* Adding image uploads
+
+** Create the storage bucket
+gsutil mb gs://sinatra-containers
+gsutil defacl set public-read gs://sinatra-containers
+
+
+** Create Access Keys
+
+https://console.cloud.google.com/storage/settings
+interoperability
+create new key
+
+Copy keys here:
+GOOGTBVGMCUXVRDUGVZH	
+/R7LLCvce6x2kKyCgynlzXVZqZQvMsFTxdZAa7c6
+
+
+** Create service account
+https://console.cloud.google.com/permissions/serviceaccounts
+Create Service Account
+Furnish a new private key (choose JSON)
+Create
+Move downloaded file into the sinatra directory
+Record file name: service-account-key.json
+
+** Updating the app
+New Gemfile
+```rb
+source "rubygems.org"
+gem "sinatra"
+gem "haml"
+gem "gcloud"
+```
+
+bundle install
+
+
+
+
+
+
+
