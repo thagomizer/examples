@@ -11,36 +11,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'minitest/autorun'
-require './stack'
-
-class TestStack < Minitest::Test
-  def test_push_pop
-    stack = Stack.new
-
-    stack.push 3
-
-    assert_equal 3, stack.pop
+class Queue
+  def initialize
+    @data = []
   end
 
-  def test_multi_push_pop
-    stack = Stack.new
-
-    stack.push 3
-    stack.push 5
-
-    assert_equal 5, stack.pop
-    assert_equal 3, stack.pop
+  def enqueue item
+    @data << item
   end
 
-  def test_empty
-    stack = Stack.new
-    assert stack.empty?
+  def dequeue
+    @data.shift
+  end
 
-    stack.push 3
-    refute stack.empty?
-
-    stack.pop
-    assert stack.empty?
+  def empty?
+    @data.empty?
   end
 end

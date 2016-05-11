@@ -12,35 +12,27 @@
 # limitations under the License.
 
 require 'minitest/autorun'
-require './stack'
+require './queue'
 
-class TestStack < Minitest::Test
-  def test_push_pop
-    stack = Stack.new
-
-    stack.push 3
-
-    assert_equal 3, stack.pop
+class TestQueue < Minitest::Test
+  def setup
+    @queue = Queue.new
   end
 
-  def test_multi_push_pop
-    stack = Stack.new
-
-    stack.push 3
-    stack.push 5
-
-    assert_equal 5, stack.pop
-    assert_equal 3, stack.pop
+  def test_enqueue_one_item
+    @queue.enqueue 3
+    assert_equal 3, @queue.dequeue
   end
 
-  def test_empty
-    stack = Stack.new
-    assert stack.empty?
+  def test_equeue_and_dequeue
+    @queue.enqueue 3
+    @queue.enqueue 5
 
-    stack.push 3
-    refute stack.empty?
+    assert_equal 3, @queue.dequeue
+    assert_equal 5, @queue.dequeue
+  end
 
-    stack.pop
-    assert stack.empty?
+  def test_empty?
+    assert @queue.empty?
   end
 end
