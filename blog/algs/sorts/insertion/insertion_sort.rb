@@ -11,12 +11,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-module Array
+class Array
   def insertion_sort
     sorted = []
 
     self.each do |item|
-
       (0..sorted.length).each do |index|
         if sorted[index].nil? then
           sorted << item
