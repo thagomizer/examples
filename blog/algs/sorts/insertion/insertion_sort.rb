@@ -17,9 +17,7 @@ class Array
 
     self.each do |item|
       (0..sorted.length).each do |index|
-        if sorted[index].nil? then
-          sorted << item
-        elsif sorted[index] > item then
+        if sorted.fetch(index, 1.0/0) > item then
           sorted.insert index, item
           break
         end
