@@ -26,4 +26,22 @@ class TestInsertionSort < Minitest::Test
   def test_sort_random_list
     assert_equal [1, 2, 3, 4, 5], [3, 2, 5, 1, 4].insertion_sort
   end
+
+  def test_sort_bang_empty_list
+    ary = []
+    ary.insertion_sort!
+    assert_equal [], ary
+  end
+
+  def test_sort_bang_list_length_one
+    ary = [3]
+    ary.insertion_sort!
+    assert_equal [3], ary
+  end
+
+  def test_sort_bang_random_list
+    ary = [3, 2, 5, 1, 4]
+    ary.insertion_sort!
+    assert_equal [1, 2, 3, 4, 5], ary
+  end
 end

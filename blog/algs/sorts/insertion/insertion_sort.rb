@@ -11,13 +11,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+require 'pry'
+
 class Array
   def insertion_sort
     sorted = []
 
     self.each do |item|
       (0..sorted.length).each do |index|
-        if sorted.fetch(index, 1.0/0) > item then
+        if sorted.fetch(index, Float::INFINITY) > item then
           sorted.insert index, item
           break
         end
@@ -25,5 +27,15 @@ class Array
     end
 
     sorted
+  end
+
+  def insertion_sort!
+    (1...self.length).each do |i|
+      j = i
+      while j > 0 and self[j - 1] > self[j]
+        self[j], self[j - 1] = self[j - 1], self[j]
+        j -= 1
+      end
+    end
   end
 end
