@@ -11,7 +11,11 @@ disk = connection.disks.create(
   :zone_name => COMPUTE_ZONE,
   :source_image => "debian-8-jessie-v20161020")
 
+puts "Creating disk"
+
 disk.wait_for { disk.ready? }
+
+puts "Disk ready"
 
 server = connection.servers.create(
   :name => "new-server",
@@ -23,4 +27,8 @@ server = connection.servers.create(
   :user => ENV["USER"],
   :tags => ["fog"])
 
+puts "Creating server"
+
 server.wait_for { server.ready? }
+
+puts "Server ready"
