@@ -69,9 +69,11 @@ Check of items with C-c C-c
 *** Woot GitHub
 
 ** Reference
-[[http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/][Tips for Learning Org Mode]]
-[[http://orgmode.org/worg/org-tutorials/tables.html][Tables Tutorial]]
-[[Spreadsheet Tutorial]]
+- [[http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/][Tips for Learning Org Mode]]
+- [[http://orgmode.org/worg/org-tutorials/tables.html][Tables Tutorial]]
+- [[Spreadsheet Tutorial]]
+- [[http://orgmode.org/guide/index.html#Top][Compact Guide]]
+- [[http://sachachua.com/blog/2008/01/outlining-your-notes-with-org/][Outling with Org]]
 
 
 
