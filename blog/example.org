@@ -1,0 +1,83 @@
+* Org Mode Blog Post
+** TODO Tables and Spreadsheets
+**** Tables
+**** Just type the table 
+
+ | Cat Name  | Owner Name |
+ |-----------+------------|
+ | Emma      | Aja        |
+ | Nick      | Aja        |
+ | Mr Squeak | Elyse      |
+
+
+| Scout  | Mints | Peanut Butter | Shortbread | Total |
+|--------+-------+---------------+------------+-------|
+| Ann    |    23 |            12 |         34 |    69 |
+| Betsy  |    74 |            35 |         52 |   161 |
+| Carmen |    10 |             8 |          3 |    21 |
+| Daphne |    42 |            46 |         12 |   100 |
+|--------+-------+---------------+------------+-------|
+|        |   149 |           101 |        101 |       |
+#+TBLFM: $2=vsum(@2..@-1)::$3=vsum(@2..@-1)::$4=vsum(@2..@-1)::$5=vsum($2..$4)
+
+| Scout  | Mints | Peanut Butter | Shortbread | Total |
+|--------+-------+---------------+------------+-------|
+| Ann    |    23 |            12 |         34 |    69 |
+| Betsy  |    74 |            35 |         52 |   161 |
+| Carmen |    10 |             8 |          3 |    21 |
+| Daphne |    42 |            46 |         12 |   100 |
+|--------+-------+---------------+------------+-------|
+| Total  |   149 |           101 |        101 |       |
+#+TBLFM: $2=vsum(@2..@-1)::$3=vsum(@2..@-1)::$4=vsum(@2..@-1)::$5=vsum($2..$4)
+
+
+**** Or C-c | to create a table or turn csv into a table
+**** There are commands to insert, delete, and move columns or rows.
+*** Spreadsheets 
+**** Start with a table
+**** C-c } gives you a guide to how table cells are named in org 
+**** =vmean, =vsum
+**** @-1 is the last row above the current row. Show example.
+
+** TODO Todos and Checklists [0%]
+*** TODO Todos
+- Todo Cycling C-c t
+- Customizing your todo cycle
+- Summarizing todo status?  [5%] or [/] after a todo item
+*** Checklists [0/2]
+- [ ] Basic checklists
+- [ ] Nested checklists [0/3]
+  - [ ] Item One
+  - [X] Item Two
+  - [ ] Item Three
+Check of items with C-c C-c
+
+** Tags :blog_post:
+*** Specify tags
+*** Search for tags
+
+** Org and Code
+#+BEGIN_SRC ruby
+  require "gcloud/vision"
+
+  v = Gcloud.vision
+  i = v.image "gs://railsconf-postcards/fremont-troll.jpg"
+  a = v.annotate i, landmarks: 5
+#+END_SRC
+
+** Just Text
+*** Woot GitHub
+
+** Reference
+[[http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/][Tips for Learning Org Mode]]
+[[http://orgmode.org/worg/org-tutorials/tables.html][Tables Tutorial]]
+[[Spreadsheet Tutorial]]
+
+
+
+
+
+
+
+
+

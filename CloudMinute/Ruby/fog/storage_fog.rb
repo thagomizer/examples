@@ -13,7 +13,7 @@
 
 require "fog/google"
 
-connection = Fog::Storage::Google.new
+connection = Fog::Storage::GoogleJSON.new
 
 connection.put_bucket("pictures.thagomizer.com")
 
