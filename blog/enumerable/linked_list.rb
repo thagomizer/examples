@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-class Cell
+class Node
   attr_accessor :value, :next
 
   def initialize value
@@ -29,15 +29,15 @@ class LinkedList
   end
 
   def push value
-    c = Cell.new value
+    n = Node.new value
 
     if @tail
-      @tail.next = c
+      @tail.next = n
     else
-      @head = c
+      @head = n
     end
 
-    @tail = c
+    @tail = n
   end
 
   def pop
