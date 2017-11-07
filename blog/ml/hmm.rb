@@ -11,44 +11,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require "pp"
+words = File.read("Fairy Tales.txt").split(/(\b)/).map{ |x| x.sub(/\s+/,"").downcase}.reject(&:empty?)
 
-words = File.read("Fairy Tales.txt").split(/(\b)/).map(&:strip).reject(&:empty?)
-
-frequencies = Hash.new { |h, k| h[k] = Hash.new(0) }
+frequencies = Hash.new { |h, k| h[k] = [] }
 
 words.each_cons(2) do |w1, w2|
-  frequencies[w1.downcase.to_sym][w2.to_sym] += 1
+  frequencies[w1] << w2
 end
 
-probabilities = {}
+generated = [words.sample]
 
-frequencies.each do |w, h|
-  total = h.values.inject(:+).to_f
-
-  h.each do |k, v|
-    h[k] = v/total
-  end
-
-  probabilities[w] = lambda do |n|
-    p = 0.0
-    h.each do |k, v|
-      return k if (p...(p+v)).cover?(n)
-      p += v
-    end
-  end
-end
-
-generated = []
-generated << probabilities.keys.sample
-
-1_000.times do
-  if probabilities[generated.last]
-    next_word = probabilities[generated.last].call(rand)
-  else
-    next_word = probabilities.keys.sample
-  end
+100.times do
+  next_word = frequencies[generated.last].sample
   generated << next_word
 end
 
-pp generated.join(" ")
+puts generated.join(" ")
