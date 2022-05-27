@@ -59,7 +59,7 @@ GEM
     multi_json (1.11.2)
     multipart-post (2.0.0)
     os (0.9.6)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-protection (1.5.3)
       rack
     retriable (1.4.1)
