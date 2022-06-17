@@ -13,6 +13,7 @@ GEM
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
     beefcake (1.1.0)
+    concurrent-ruby (1.1.10)
     digest-crc (0.4.1)
     extlib (0.9.16)
     faraday (0.9.2)
@@ -44,7 +45,8 @@ GEM
       signet (~> 0.7)
     haml (4.0.7)
       tilt
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     json (1.8.3)
     jwt (1.5.4)
     launchy (2.4.3)
