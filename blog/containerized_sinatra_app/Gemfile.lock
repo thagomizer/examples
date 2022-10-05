@@ -7,7 +7,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     autoparse (0.3.3)
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
@@ -59,6 +60,7 @@ GEM
     multi_json (1.11.2)
     multipart-post (2.0.0)
     os (0.9.6)
+    public_suffix (5.0.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
